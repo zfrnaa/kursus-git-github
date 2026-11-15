@@ -1,6 +1,6 @@
-# 🏆 Dinding Kenangan (*Hall of Fame*) — Senarai Pelajar Kursus Git & GitHub
+# 🏆 Balai Kemasyhuran (*Hall of Fame*) — Senarai Pelajar Kursus Git & GitHub
 
-Selamat datang ke **Dinding Kenangan (`SENARAI-PELAJAR.md`)**!
+Selamat datang ke **Balai Kemasyhuran**!
 
 Fail ini adalah ruang rasmi untuk meraikan setiap pelajar dan pembangun baharu yang telah berjaya menguasai aliran kerja kolaborasi Git dan GitHub: daripada melakukan **Fork**, **Clone**, mencipta **Branch**, melakukan **Commit**, memuat naik kod melalui **Push**, sehinggalah menghantar **Pull Request (PR)** pertama yang sebenar.
 
@@ -29,7 +29,7 @@ git switch -c tambah-nama-anda
 ### Langkah 3: Tambah Baris Nama Anda di Bahagian Paling Bawah Jadual
 1. Buka fail `SENARAI-PELAJAR.md` ini menggunakan penyunting kod anda (seperti VS Code).
 2. Tatal ke bahagian paling bawah jadual di bawah.
-3. Tambahkan **satu baris baharu di bahagian paling akhir jadual** mengikut format lajur berikut (jangan ubah atau padam baris pelajar lain bagi mengelakkan *Merge Conflict*):
+3. Tambahkan **satu baris baharu di bahagian paling akhir jadual** mengikut format lajur berikut (jangan ubah atau padam baris pelajar lain bagi mengelakkan *Merge Conflict*), dan link portfolio adalah opsional:
    ```markdown
    | Bil | Nama / Panggilan | Institusi / Latar Belakang | Pautan GitHub & Portfolio | Tarikh |
    ```
@@ -60,7 +60,7 @@ git push -u origin tambah-nama-anda
 Jika panduan percuma ini telah membantu anda memahami Git & GitHub dengan lebih jelas:
 
 1. **Klik ⭐ Star pada Repositori Ini:** Sila pastikan anda telah menekan butang **⭐ Star** di penjuru kanan atas repositori utama. Selain berfungsi sebagai *bookmark* di dalam profil anda, setiap ⭐ Star membantu lebih ramai pelajar IT di Malaysia menemui kursus percuma ini.
-2. **Kongsikan Kejayaan Anda di Threads:** Ambil tangkapan skrin (*screenshot*) *Pull Request* pertama anda atau laman portfolio anda yang telah siap, dan kongsikan di **Threads**! Ceritakan pengalaman anda belajar Git dalam Bahasa Melayu supaya rakan-rakan sekelas anda turut bersemangat untuk mencuba.
+2. **Kongsikan Kejayaan Anda di Threads:** Ambil tangkapan skrin (*screenshot*) *Pull Request* pertama anda atau laman portfolio anda yang telah siap, dan kongsikan di **Threads**! Ceritakan pengalaman anda belajar Git dalam Bahasa Melayu supaya rakan-rakan sekelas anda turut bersemangat untuk mencuba. Jangan lupa tag saya di thread (rann.404) supaya saya dapat melihat dan memberi sokongan kepada anda.
 
 ---
 
@@ -68,7 +68,7 @@ Jika panduan percuma ini telah membantu anda memahami Git & GitHub dengan lebih 
 
 | Bil | Nama / Panggilan | Institusi / Latar Belakang | Pautan GitHub & Portfolio | Tarikh |
 | :---: | :--- | :--- | :--- | :---: |
-| 1 | Penyelenggara Kursus | Komuniti Pembangun Melayu | [GitHub](https://github.com/) | 2026-11-15 |
-| 2 | Farah Nabilah | UiTM Shah Alam (Kejuruteraan Perisian) | [GitHub](https://github.com/) • [Portfolio](https://example.com) | 2026-11-15 |
-| 3 | Danial Ariff | Politeknik Ungku Omar (Teknologi Maklumat) | [GitHub](https://github.com/) • [Portfolio](https://example.com) | 2026-11-15 |
+| 1 | Penyelenggara Kursus (Rann) | Komuniti Pembangun | [GitHub](https://github.com/zfrnaa) | 15-11-2026 |
+| 2 | <Nama anda> | <Nama institusi dan kos ambilan> | [GitHub](https://github.com/<username>) • [Portfolio](https://example.com) | tarikh |
+
 <!-- TAMBAH BARIS NAMA ANDA DI BAWAH BARIS INI MENGIKUT FORMAT DI ATAS -->

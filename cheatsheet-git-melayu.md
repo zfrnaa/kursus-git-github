@@ -1,6 +1,6 @@
-# ⚡ Helaian Rujukan Pantas Git (*Git Cheatsheet* Bahasa Melayu)
+# Helaian Rujukan Pantas Git (*Git Cheatsheet*)
 
-> **📱 Muat Turun Versi PDF untuk Telefon Pintar:** Mahu simpan rujukan ini di dalam telefon supaya mudah dibuka pada bila-bila masa tanpa internet? **[Klik di sini untuk memuat turun `Cheatsheet-Git`](./cheatsheet-git-melayu.pdf)**!
+> **Muat Turun Versi PDF untuk Telefon Pintar:** Mahu simpan rujukan ini di dalam telefon supaya mudah dibuka pada bila-bila masa tanpa internet? **[Klik di sini untuk memuat turun `Cheatsheet-Git`](./cheatsheet-git-melayu.pdf)**!
 
 Simpan halaman ini (atau klik **⭐ Star** pada repositori utama) supaya anda boleh merujuknya dengan pantas semasa kuliah, amali, atau ketika menyiapkan projek tahun akhir (FYP).
 
@@ -27,7 +27,7 @@ Digunakan setiap hari semasa anda menulis dan menyimpan perubahan kod di dalam k
 
 | Arahan Terminal | Apa Fungsinya & Jadi Kenapa? |
 | :--- | :--- |
-| `git init` | Mengaktifkan sistem penjejakan Git di dalam folder projek anda supaya setiap perubahan kod selepas ini boleh disimpan dan dipulihkan semula. |
+| `git init` | Mengaktifkan sistem penjejakan Git di dalam folder projek anda supaya setiap perubahan kod selepas ini boleh disimpan dan dipulihkan semula dan juga membuat repository. |
 | `git status` | Menyemak fail mana yang telah diubah atau belum disimpan supaya tiada kod penting tertinggal sebelum anda menutup komputer atau menghantar tugasan. |
 | `git add <nama-fail>` | Memasukkan satu fail spesifik ke dalam *Staging Area* supaya anda boleh memilih perubahan yang betul-betul sudah siap sahaja untuk direkodkan. |
 | `git add .` | Memasukkan kesemua fail yang telah diubah di dalam folder semasa ke dalam *Staging Area* sekaligus supaya anda menjimatkan masa apabila banyak fail dikemas kini. |
@@ -85,7 +85,7 @@ Setiap kali anda duduk di hadapan komputer untuk menyambung tugasan koding, amal
 ```text
 1. git pull                      --> Ambil kemas kini terbaharu dari GitHub (elak bercanggah dengan kod rakan).
 2. git switch -c ciri-baharu     --> Cipta branch khas untuk tugasan hari ini (jangan kacau kod main).
-3. [Tulis kod & simpan fail]     --> Lakukan kerja pengaturcaraan anda seperti biasa di dalam VS Code.
+3. [Tulis kod & simpan fail]     --> Lakukan kerja pengaturcaraan anda seperti biasa di dalam VS Code/Code Editor anda yang lain.
 4. git status                    --> Semak fail mana yang telah berubah.
 5. git add .                     --> Masukkan perubahan ke dalam Staging Area.
 6. git commit -m "Mesej jelas"   --> Simpan checkpoint di dalam komputer.

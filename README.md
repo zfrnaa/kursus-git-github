@@ -1,4 +1,4 @@
-# 🚀 Kenali Git & GitHub untuk Pemula (Edisi Pelajar & Pembangun Baharu)
+# Kenali Git & GitHub untuk Pemula (Edisi Pelajar & Pembangun Baharu)
 
 Pernahkah anda menyimpan fail tugasan koding di dalam komputer dengan nama seperti ini?
 
@@ -25,6 +25,8 @@ Sebelum anda mula membaca Bab 1, lihat ke bahagian **penjuru kanan atas** halama
 > 2. **Rujukan Pantas Semasa Kuliah & Amali:** Apabila anda terlupa arahan Git semasa membuat tugasan atau projek tahun akhir (FYP), panduan ini sentiasa tersedia satu klik sahaja di akaun anda.
 > 3. **Menyokong Komuniti Sumber Terbuka Melayu:** Setiap ⭐ Star yang anda berikan membantu algoritma GitHub mengesyorkan panduan percuma ini kepada lebih ramai rakan pelajar IT di seluruh Malaysia!
 
+([`Gambar Profil`](./SENARAI-PELAJAR.md))
+
 Sudah klik **⭐ Star**? Bagus! Mari kita lihat apa yang bakal anda bina sepanjang kursus ini.
 
 ---
@@ -37,7 +39,7 @@ Kursus ini direka supaya anda belajar sambil membina hasil sebenar yang boleh di
 2. **Menuntut *GitHub Student Developer Pack*:** Membuka akses kepada perisian dan alatan pembangun profesional (GitHub Pro, JetBrains IDE, domain percuma, dan GitHub Copilot) yang bernilai ribuan ringgit secara percuma menggunakan e-mel pelajar anda.
 3. **Log Masuk Terminal Tanpa Sakit Kepala:** Menggunakan kaedah moden `gh auth login` supaya anda boleh terus memuat naik kod tanpa tersangkut pada ralat kata laluan terminal.
 4. **Membina & Menerbitkan Laman Web Portfolio Sendiri:** Mengubah suai kod sedia guna di dalam folder [`template-portfolio/`](./template-portfolio/) dan menerbitkannya ke internet secara percuma menggunakan **GitHub Pages** (`username.github.io`).
-5. **Menghantar *Pull Request* (PR) Pertama Anda:** Mencuba aliran kerja industri sebenar dengan menyenaraikan nama serta pautan portfolio anda di dalam Dinding Kenangan ([`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md)).
+5. **Menghantar *Pull Request* (PR) Pertama Anda:** Mencuba aliran kerja industri sebenar dengan menyenaraikan nama serta pautan portfolio anda (pilihan) di dalam Dinding Kenangan ([`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md)).
 
 ---
 
@@ -63,8 +65,8 @@ Setiap bab dilengkapi dengan penunjuk kemajuan projek, rajah visual, latihan ama
 
 Selain 9 bab utama di atas, repositori ini turut menyediakan tiga aset penting untuk mempercepatkan pembelajaran anda:
 
-- 📱 **[`cheatsheet-git-melayu.pdf`](./cheatsheet-git-melayu.pdf) & [`cheatsheet-git-melayu.md`](./cheatsheet-git-melayu.md) — Helaian Rujukan Pantas (Versi PDF Telefon & Web):** Muat turun versi **PDF** terus ke telefon pintar anda (mudah dibuka di WhatsApp/Files tanpa perlu melayari GitHub Mobile) atau baca versi Markdown di pelayar web. Lengkap dengan penjelasan *"Jadi kenapa?"* dalam Bahasa Melayu.
-- 🏆 **[`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md) — Dinding Kenangan (*Hall of Fame*):** Senarai pelajar dan pembangun baharu yang telah berjaya menghantar *Pull Request* pertama mereka. Nama anda bakal berada di sini pada Bab 6!
+- 📱 **[`PDF cheatsheet-git-melayu`](./cheatsheet-git-melayu.pdf) & [`cheatsheet-git-melayu.md`](./cheatsheet-git-melayu.md) — Helaian Rujukan Pantas (Versi PDF Telefon & Web):** Muat turun versi **PDF** terus ke telefon pintar anda (mudah dibuka di WhatsApp/Files tanpa perlu melayari GitHub Mobile) atau baca versi Markdown di pelayar web. Lengkap dengan penjelasan *"Jadi kenapa?"* dalam Bahasa Melayu.
+- 🏆 **[`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md) — Balai Kemasyhuran (*Hall of Fame*):** Senarai pelajar dan pembangun baharu yang telah berjaya menghantar *Pull Request* pertama mereka. Nama anda bakal berada di sini pada Bab 6!
 - 💻 **[`template-portfolio/`](./template-portfolio/) — Kod Permulaan Portfolio Peribadi:** Templat laman web HTML5 dan CSS3 moden yang responsif. Anda tidak perlu menulis kod reka bentuk daripada kosong; fokus terus kepada kemahiran mengawal versi kod dengan Git.
 
 ---
