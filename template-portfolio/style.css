@@ -153,9 +153,7 @@ h2 {
 }
 
 .skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
+    margin-left: 16px;
 }
 
 .skill-tag {
