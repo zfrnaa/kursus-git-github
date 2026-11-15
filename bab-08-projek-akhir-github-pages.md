@@ -1,4 +1,4 @@
-# 🚀 Bab 8: Projek Akhir — Lancarkan Laman Web Portfolio Anda dengan GitHub Pages!
+# Bab 8: Projek Akhir — Lancarkan Laman Web Portfolio Anda dengan GitHub Pages!
 
 **Kemajuan Projek Portfolio Anda: [100% — SIAP! 🎉]** `████████████████████`
 
@@ -19,7 +19,7 @@ Sepanjang Bab 3 hingga Bab 7, anda telah membina, mengemas kini, dan menyandarka
 - Menyimpan fail HTML di dalam repositori biasa adalah seperti **menyimpan pelan seni bina dan resipi masakan di dalam fail plastik**. Hanya rakan pengaturcara yang rajin membuka fail kod tersebut sahaja yang tahu apa yang anda bina.
 - Mengaktifkan **GitHub Pages** pula adalah seperti **membuka sebuah galeri pameran awam 24 jam secara percuma di internet**! Setiap kali anda melakukan `git push` pada kod `index.html` atau `style.css`, pelayan GitHub secara automatik membina dan memaparkan laman web sebenar yang lengkap dengan warna, butang, dan tipografi pada satu pautan URL rasmi (`github.io`) yang boleh dibuka melalui telefon pintar atau komputer oleh sesiapa sahaja di seluruh dunia—termasuk bakal majikan dan penemu duga latihan industri (*internship*) anda!
 
-### Aliran Automatik *Git Push* $\rightarrow$ *GitHub Pages* $\rightarrow$ Laman Web Langsung
+### Aliran Automatik *Git Push* -> *GitHub Pages* -> Laman Web Langsung
 
 ```mermaid
 flowchart LR
@@ -78,7 +78,7 @@ Jika terminal memaparkan `Everything up-to-date` dan `working tree clean`, anda 
 ### Langkah 3: Tunggu 60 Saat & Lawati Laman Web Rasmi Anda! 🎉
 
 1. Selepas anda menekan **Save**, GitHub akan mula membina laman web anda di belakang tabir.
-2. Tunggu kira-kira **1 hingga 2 minit**, kemudian muat semula (*refresh* / tekan `F5`) halaman **Settings $\rightarrow$ Pages** tersebut.
+2. Tunggu kira-kira **1 hingga 2 minit**, kemudian muat semula (*refresh* / tekan `F5`) halaman **Settings -> Pages** tersebut.
 3. Anda akan melihat satu kotak pengumuman di bahagian atas berbunyi:
    > 🌐 **Your site is live at `https://USERNAME-ANDA.github.io/portfolio-saya/`**
 4. Klik butang **Visit site** (atau klik terus pautan tersebut)!
@@ -97,7 +97,7 @@ Tahukah anda bahawa GitHub menyediakan satu keistimewaan khas? Jika anda menamak
 👉 **`https://USERNAME-ANDA.github.io/`**
 
 **Cara menukarnya pada bila-bila masa (Pilihan):**
-1. Pergi ke **⚙️ Settings** $\rightarrow$ **General** (tab paling atas di sebelah kiri) di dalam repositori `portfolio-saya` anda.
+1. Pergi ke **⚙️ Settings** -> **General** (tab paling atas di sebelah kiri) di dalam repositori `portfolio-saya` anda.
 2. Di bawah kotak **Repository name**, tukarkan `portfolio-saya` kepada **`USERNAME-ANDA.github.io`** *(Gantikan `USERNAME-ANDA` dengan username sebenar anda, contohnya `aimanhakim.github.io`)*.
 3. Klik **Rename**. Dalam masa seminit, laman web anda akan terus boleh diakses di `https://USERNAME-ANDA.github.io/`!
 
@@ -232,21 +232,21 @@ Siapa yang nak belajar Git & GitHub dari kosong dalam Bahasa Melayu (siap ada pa
 
 ## ⚠️ Kesilapan Lazim Pemula — Jangan Panik!
 
-> **🚨 Situasi 1: Saya sudah menekan *Save* di GitHub Pages, tetapi apabila saya membuka pautan URL tersebut, keluar ralat `404 There isn't a GitHub Pages site here`!**
+> **Situasi 1: Saya sudah menekan *Save* di GitHub Pages, tetapi apabila saya membuka pautan URL tersebut, keluar ralat `404 There isn't a GitHub Pages site here`!**
 > **Mengapa ia berlaku:** Dua punca utama: (1) Pelayan GitHub masih sedang memproses laman anda (ia mengambil masa 1 hingga 2 minit pada kali pertama), atau (2) Fail utama laman web anda tidak dinamakan sebagai `index.html` dengan huruf kecil sepenuhnya (contohnya dinamakan `Index.html` atau berada di dalam subfolder lain).
 > **Cara selesaikan:** Pastikan fail `index.html` berada terus di dalam folder utama (*root*) repositori anda, tunggu 2 minit, dan tekan `Ctrl + Shift + R` (*Hard Refresh*) pada pelayar web anda.
 
-> **🚨 Situasi 2: Laman web saya sudah keluar di GitHub Pages, tetapi tiada warna atau gaya reka bentuk langsung (hanya teks hitam putih seperti dokumen lama)!**
+> **Situasi 2: Laman web saya sudah keluar di GitHub Pages, tetapi tiada warna atau gaya reka bentuk langsung (hanya teks hitam putih seperti dokumen lama)!**
 > **Mengapa ia berlaku:** Pautan ke fail `style.css` di dalam `<head>` fail `index.html` anda mungkin tersilap ejaan atau menggunakan huruf besar/kecil yang berbeza (pelayan Linux di GitHub Pages sangat sensitif huruf besar/kecil: `Style.css` tidak sama dengan `style.css`).
 > **Cara selesaikan:** Semak baris `<link rel="stylesheet" href="style.css">` di dalam `index.html` dan pastikan nama fail CSS anda dieja `style.css` dengan huruf kecil sepenuhnya.
 
-> **🚨 Situasi 3: Saya sudah mengubah kod `index.html` dan menjalankan `git push`, tetapi laman web `github.io` saya masih memaparkan versi lama!**
+> **Situasi 3: Saya sudah mengubah kod `index.html` dan menjalankan `git push`, tetapi laman web `github.io` saya masih memaparkan versi lama!**
 > **Mengapa ia berlaku:** Pelayar web (*browser*) anda menyimpan ingatan sementara (*cache*) supaya laman web dibuka dengan pantas, ditambah pula GitHub Pages mengambil masa sekitar 30–60 saat untuk membina semula laman selepas setiap `git push`.
 > **Cara selesaikan:** Tunggu 60 saat selepas `git push`, kemudian buka laman web anda dan tekan **`Ctrl + F5`** (atau **`Ctrl + Shift + R`**) untuk memaksa pelayar web memuat turun versi paling baharu.
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 8)
+## Cabaran Semakan Kendiri (Bab 8)
 
 Uji kefahaman anda terhadap penerbitan GitHub Pages dan profil profesional:
 
@@ -265,7 +265,7 @@ Uji kefahaman anda terhadap penerbitan GitHub Pages dan profil profesional:
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 7: Perisian GUI & Alternatif Industri — VS Code, GitHub Desktop & GitLab](./bab-07-perisian-gui-dan-alternatif.md)
 - 🏠 **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)

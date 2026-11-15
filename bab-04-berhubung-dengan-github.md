@@ -1,4 +1,4 @@
-# 🌐 Bab 4: Berhubung dengan GitHub (*Remote*) — Menyimpan Kod ke Awan
+# Bab 4: Berhubung dengan GitHub (*Remote*) — Menyimpan Kod ke Awan
 
 **Kemajuan Projek Portfolio Anda: [50%]** `██████████░░░░░░░░░░`
 
@@ -55,7 +55,7 @@ Apabila anda melawat mana-mana halaman projek di GitHub (termasuk halaman kursus
 
 | Butang GitHub | Fungsi Sebenar | Bila Anda Patut Menggunakannya? |
 | :--- | :--- | :--- |
-| **⭐ Star** | **Penanda Buku (*Bookmark*) & Tanda Penghargaan.** Menyimpan pautan repositori tersebut ke dalam senarai *Your Stars* di profil anda tanpa menyalin failnya. | Tekan **⭐ Star** pada repositori yang berguna (seperti kursus ini atau pustaka kod yang anda minati) supaya mudah dicari semula pada bila-bila masa. |
+| **⭐ Star** | **Penanda Buku (*Bookmark*) & Tanda Penghargaan.** Menyimpan pautan repositori tersebut ke dalam senarai *Your Stars* di profil anda tanpa menyalin failnya. | Tekan **⭐ Star** pada repositori yang berguna (seperti kursus ini atau pustaka kod yang anda minati) supaya mudah dicari semula pada bila-bila masa. Ini juga cara anda menunjukkan sokongan kepada projek yang anda minati. |
 | **👁️ Watch** | **Langganan Notifikasi (*Notification Bell*).** Memberitahu GitHub supaya menghantar e-mel atau pemberitahuan kepada anda setiap kali ada isu (*Issue*), perbincangan, atau kemas kini baharu pada projek tersebut. | Gunakan pada projek kerja berkumpulan anda di universiti atau tempat kerja supaya anda tahu setiap kali rakan sepasukan menghantar kod baharu. |
 | **🍴 Fork** | **Salinan Bebas ke Akaun Anda Sendiri.** Mencipta salinan penuh repositori orang lain ke dalam akaun GitHub peribadi anda (`github.com/username-anda/nama-projek`) supaya anda boleh mengubah suai kodnya dengan bebas tanpa menjejaskan projek asal. | Gunakan apabila anda ingin menyumbang kod (*Pull Request*) kepada projek sumber terbuka orang lain (kita akan lakukannya secara amali dalam **Bab 6**!). |
 
@@ -75,7 +75,7 @@ Dalam Bab 3, anda telah mencipta dua `commit` di dalam folder `portfolio-saya` d
    - **Visibility:** Pilih **Public** (penting supaya anda boleh menerbitkannya secara percuma menggunakan GitHub Pages pada Bab 8 nanti).
 4. ⚠️ **AMARAN PENTING (Jangan Tanda Kotak Ini!):**
    Di bawah bahagian **Initialize this repository with:**, pastikan kotak **"Add a README file"**, **"Add .gitignore"**, dan **"Choose a license"** dibiarkan **KOSONG (TIDAK DITANDA)**.
-   - *Mengapa?* Kerana folder `portfolio-saya` di dalam komputer anda sudah pun mempunyai sejarah `commit` dan fail `.gitignore` daripada Bab 3. Jika GitHub mencipta fail baharu secara berasingan di awan, sejarah komputer anda dan sejarah GitHub akan bercanggah!
+   - *Mengapa?* Kerana folder `portfolio-saya` di dalam komputer anda sudah pun mempunyai sejarah `commit` dan fail `.gitignore` daripada Bab 3. Jika GitHub mencipta fail baharu secara berasingan di awan, sejarah komputer anda dan sejarah GitHub akan bercanggah (conflict)!
 5. Klik butang hijau **Create repository**.
 
 ---
@@ -199,7 +199,7 @@ cd ../portfolio-saya
 
 ## ⚠️ Kesilapan Lazim Pemula — Jangan Panik!
 
-> **🚨 Situasi 1: Saya jalankan `git remote add origin ...` tetapi keluar ralat `error: remote origin already exists.`!**
+> **Situasi 1: Saya jalankan `git remote add origin ...` tetapi keluar ralat `error: remote origin already exists.`!**
 > **Mengapa ia berlaku:** Anda pernah menjalankan arahan `git remote add origin` sebelum ini (mungkin anda tersalah taip URL atau tersilap letak `USERNAME-ANDA`). Git tidak membenarkan dua kenalan menggunakan nama `origin` yang sama.
 > **Cara selesaikan:** Anda tidak perlu memadam folder projek! Hanya kemas kini alamat URL bagi `origin` menggunakan arahan **`set-url`**:
 > ```bash
@@ -207,7 +207,7 @@ cd ../portfolio-saya
 > git remote -v
 > ```
 
-> **🚨 Situasi 2: Semasa saya jalankan `git push -u origin main`, keluar ralat merah `error: failed to push some refs to '...' (Updates were rejected because the remote contains work that you do not have locally)`!**
+> **Situasi 2: Semasa saya jalankan `git push -u origin main`, keluar ralat merah `error: failed to push some refs to '...' (Updates were rejected because the remote contains work that you do not have locally)`!**
 > **Mengapa ia berlaku:** Semasa mencipta repositori di GitHub tadi, anda mungkin **tertanda kotak "Add a README file"**. Akibatnya, GitHub mempunyai satu `commit` (fail `README.md`) yang belum wujud di dalam komputer anda, lalu GitHub menolak muat naik anda bagi mengelakkan fail `README.md` tersebut terpadam.
 > **Cara selesaikan:** Tarik dan gabungkan sejarah daripada GitHub terlebih dahulu menggunakan arahan ini:
 > ```bash
@@ -215,13 +215,13 @@ cd ../portfolio-saya
 > ```
 > *(Jika editor teks terbuka meminta mesej penggabungan, tekan `Esc`, taip `:wq` dan tekan `Enter`)*. Selepas itu, jalankan semula `git push -u origin main`.
 
-> **🚨 Situasi 3: Keluar ralat `error: src refspec main does not match any` semasa `git push`!**
+> **Situasi 3: Keluar ralat `error: src refspec main does not match any` semasa `git push`!**
 > **Mengapa ia berlaku:** Anda cuba memuat naik cabang `main` sedangkan anda **belum pernah membuat sebarang `commit`** di dalam folder tersebut, ATAU cabang tempatan anda masih bernama `master` (tetapan Git lama).
 > **Cara selesaikan:** Pastikan anda telah menjalankan `git add` dan `git commit -m "..."` sekurang-kurangnya sekali (seperti dalam Bab 3), kemudian jalankan `git branch -M main` untuk menukar nama cabang kepada `main` sebelum menjalankan `git push -u origin main`.
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 4)
+## Cabaran Semakan Kendiri (Bab 4)
 
 Uji kefahaman anda sebelum melangkah ke Bab 5:
 
@@ -240,7 +240,7 @@ Uji kefahaman anda sebelum melangkah ke Bab 5:
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 3: Asas Git Tempatan (*Local*) — Tapak Portfolio Pertama Anda](./bab-03-asas-git-tempatan.md)
 - 🏠 **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)

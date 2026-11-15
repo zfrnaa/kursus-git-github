@@ -1,8 +1,8 @@
-# 📬 Bab 5: Kemas Kini Jarak Jauh — Perbezaan `git fetch` vs `git pull`
+# Bab 5: Kemas Kini Jarak Jauh — Perbezaan `git fetch` vs `git pull`
 
 **Kemajuan Projek Portfolio Anda: [65%]** `█████████████░░░░░░░`
 
-### 🎯 Objektif Pembelajaran
+### Objektif Pembelajaran
 Pada akhir bab ini, anda akan dapat:
 1. Membezakan fungsi **`git fetch`** dan **`git pull`** dengan jelas menggunakan **Analogi Peti Surat (*Mailbox Analogy*)**.
 2. Memahami peranan penunjuk **`origin/main`** sebagai cerminan keadaan terkini di GitHub berbanding cabang **`main`** di dalam komputer anda.
@@ -22,7 +22,7 @@ Untuk mengambil kemas kini tersebut dari GitHub, Git menyediakan dua arahan yang
 1. **🚶‍♂️📬 `git fetch` (Pergi ke Peti Surat & Tengok Sahaja):**
    Apabila anda menjalankan `git fetch`, anda berjalan keluar ke peti surat, mengambil surat yang baru tiba, dan membawanya masuk ke bilik untuk **melihat sampul serta pengirimnya (`origin/main`)**, tetapi anda **belum membukanya atau mencampurkannya ke atas meja kerja anda (`main`)**.
    - **Mengapa ia 100% selamat?** Fail-fail kod yang sedang anda buka di dalam VS Code langsung tidak berubah! Anda boleh menyemak dahulu apa yang rakan anda ubah sebelum membuat keputusan.
-2. **⚡📥 `git pull` (Ambil Surat & Terus Campurkan ke Atas Meja Kerja):**
+2. **📥 `git pull` (Ambil Surat & Terus Campurkan ke Atas Meja Kerja):**
    Apabila anda menjalankan `git pull`, anda pergi ke peti surat, mengambil surat tersebut, dan **serta-merta membuka serta menggabungkan kandungannya terus ke dalam kertas kerja di atas meja anda**.
    - Secara matematik di dalam Git: **`git pull` = `git fetch` + `git merge`**.
 
@@ -221,11 +221,11 @@ Apabila anda menyertai projek berkumpulan di universiti atau menjalani latihan i
 
 ## ⚠️ Kesilapan Lazim Pemula — Jangan Panik!
 
-> **🚨 Situasi 1: Saya cuba jalankan `git push`, tetapi ditolak dengan ralat `![rejected] main -> main (fetch first)`!**
+> **Situasi 1: Saya cuba jalankan `git push`, tetapi ditolak dengan ralat `![rejected] main -> main (fetch first)`!**
 > **Mengapa ia berlaku:** Ada perubahan baharu di GitHub (mungkin anda pernah menyunting fail melalui pelayar web GitHub atau rakan sepasukan anda baru sahaja membuat `push`) yang belum anda tarik ke dalam komputer anda. Git menghalang anda daripada melakukan `push` secara membuta tuli supaya kerja di GitHub tidak terpadam.
 > **Cara selesaikan:** Ikut sahaja nasihat Git! Jalankan **`git pull`** terlebih dahulu untuk mengambil kemas kini dari GitHub ke komputer anda, kemudian barulah jalankan **`git push`** semula.
 
-> **🚨 Situasi 2: Saya jalankan `git pull`, tetapi keluar ralat `error: Your local changes to the following files would be overwritten by merge: index.html. Please commit your changes or stash them before you merge.`!**
+> **Situasi 2: Saya jalankan `git pull`, tetapi keluar ralat `error: Your local changes to the following files would be overwritten by merge: index.html. Please commit your changes or stash them before you merge.`!**
 > **Mengapa ia berlaku:** Anda sedang menyunting fail `index.html` di komputer anda (belum di-*commit* lagi), dan pada masa yang sama fail `index.html` yang baru tiba dari GitHub juga mempunyai perubahan. Git enggan menimpa kerja anda yang belum disimpan!
 > **Cara selesaikan:** Simpan dahulu kerja tempatan anda ke dalam *Save Checkpoint* dengan menjalankan:
 > ```bash
@@ -234,13 +234,13 @@ Apabila anda menyertai projek berkumpulan di universiti atau menjalani latihan i
 > git pull
 > ```
 
-> **🚨 Situasi 3: Selepas jalankan `git pull`, keluar mesej panjang `Need to specify how to reconcile divergent branches`!**
+> **Situasi 3: Selepas jalankan `git pull`, keluar mesej panjang `Need to specify how to reconcile divergent branches`!**
 > **Mengapa ia berlaku:** Anda mempunyai `commit` baharu di komputer, dan GitHub juga mempunyai `commit` baharu yang berbeza pada masa yang sama. Git bertanya sama ada anda mahu menggabungkannya secara *merge* biasa.
 > **Cara selesaikan:** Jalankan **`git pull --no-rebase`** untuk menggabungkan kedua-dua sejarah tersebut dengan selamat (jika editor teks terbuka, tekan `Esc`, taip `:wq` dan tekan `Enter`).
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 5)
+## Cabaran Semakan Kendiri (Bab 5)
 
 Uji kefahaman anda terhadap penyegerakan jarak jauh dengan 3 soalan ini:
 
@@ -259,7 +259,7 @@ Uji kefahaman anda terhadap penyegerakan jarak jauh dengan 3 soalan ini:
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 4: Berhubung dengan GitHub (*Remote*) — Menyimpan Kod ke Awan](./bab-04-berhubung-dengan-github.md)
 - 🏠 **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)

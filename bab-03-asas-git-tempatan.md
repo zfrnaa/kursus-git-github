@@ -1,19 +1,19 @@
-# 🏗️ Bab 3: Asas Git Tempatan (*Local*) — Tapak Portfolio Pertama Anda
+# Bab 3: Asas Git Tempatan (*Local*) — Tapak Portfolio Pertama Anda
 
 **Kemajuan Projek Portfolio Anda: [35%]** `███████░░░░░░░░░░░░░`
 
 ### 🎯 Objektif Pembelajaran
 Pada akhir bab ini, anda akan dapat:
-1. Membezakan tiga kawasan utama di dalam Git: **Meja Kerja (*Working Directory*)**, **Kotak Pembungkusan (*Staging Area*)**, dan **Arkib Kekal (*Local Repository*)**.
+1. Membezakan tiga peringkat utama di dalam Git: **Meja Kerja (*Working Directory*)**, **Kotak Pembungkusan (*Staging Area*)**, dan **Arkib Kekal (*Local Repository*)**.
 2. Memulakan repositori Git tempatan pada projek portfolio anda menggunakan `git init` dan memeriksa keadaan fail menggunakan `git status`.
 3. Menyimpan *Save Checkpoint* pertama selepas mengemas kini biodata di dalam `index.html` menggunakan gabungan arahan `git add`, `git commit`, dan menyemak sejarah dengan `git log --oneline`.
 4. Melindungi maklumat sulit seperti kata laluan dan kunci rahsia daripada termasuk ke dalam rekod Git dengan mencipta fail **`.gitignore`** sebelum disambungkan ke internet.
 
 ---
 
-## 1. Bayangkan Begini... Tiga Kawasan Git Seperti Menghantar Bungkusan Pos
+## 1. Bayangkan Begini... Tiga Peringkat Git Seperti Menghantar Bungkusan Pos
 
-**Bayangkan begini...** Anda seorang usahawan kraf tangan yang sedang menyiapkan barangan tempahan pelanggan di dalam bilik studio anda. Di dalam studio tersebut, terdapat **tiga ruang berbeza**:
+Anda seorang usahawan kraf tangan yang sedang menyiapkan barangan tempahan pelanggan di dalam bilik studio anda. Di dalam studio tersebut, terdapat **tiga ruang berbeza**:
 
 1. **🪑 Meja Kerja (*Working Directory*):**
    Di atas meja ini, terdapat pelbagai barangan yang sedang anda ukir, cat, atau baiki. Ada yang sudah siap dan ada yang masih separuh jalan.
@@ -59,11 +59,15 @@ flowchart LR
 | **`git commit -m "..."`** | Melekatkan pita pelekat pada Kotak Pembungkusan, menulis nota ringkas tentang perubahan tersebut, dan menyimpannya ke dalam Arkib Kekal (*Repository*). |
 | **`git log --oneline`** | Membuka buku rekod Arkib Kekal untuk melihat senarai semua *Save Checkpoint* yang pernah anda buat. |
 
+Contoh git status selepas anda menambah fail ke dalam Kotak Pembungkusan:
+
+![`Git Status`](./assets/git_status_example.png)
+
 ---
 
 ## 2. Mengapa Fail `.gitignore` Sangat Penting Sebelum Anda ke Internet?
 
-Sebelum kita mula menyimpan fail ke dalam Git, ada satu peraturan keselamatan emas yang wajib diketahui oleh setiap pembangun: **Tidak semua fail di dalam folder komputer anda patut disimpan oleh Git atau dimuat naik ke GitHub!**
+Sebelum kita mula menyimpan fail ke dalam Git, ada satu peraturan keselamatan penting yang wajib diketahui oleh setiap pembangun: **Tidak semua fail di dalam folder komputer anda patut disimpan oleh Git atau dimuat naik ke GitHub!**
 
 Antara fail yang **wajib dikecualikan** daripada Git termasuklah:
 - 🔐 **Fail Kata Laluan & Kunci API Rahsia** (seperti fail `.env` atau `kata-laluan-rahsia.txt`). Jika anda memuat naik kunci API perkhidmatan awan ke repositori awam di GitHub, bot penggodam boleh menghidunya dalam masa beberapa saat!
@@ -76,7 +80,7 @@ Untuk memberitahu Git supaya menutup mata terhadap fail-fail ini, kita mencipta 
 
 ## 🧪 Latihan Amali Bab 3: Membina Tapak Portfolio & *Checkpoint* Pertama Anda
 
-Mari kita mulakan projek sebenar anda! Dalam makmal ini, kita akan menyalin templat portfolio kursus, menghidupkan enjin Git, mengemas kini nama serta biodata anda, dan menguji perisai keselamatan `.gitignore`.
+Mari kita mulakan projek sebenar anda! Dalam makmal ini, kita akan menyalin templat portfolio kursus, menghidupkan enjin Git, mengemas kini nama serta biodata anda, dan menguji peraturan `.gitignore`.
 
 ### Langkah 1: Sediakan Folder Projek `portfolio-saya` dan Hidupkan Git (`git init`)
 
@@ -97,7 +101,7 @@ git init
 
 **Jangkaan Output di Terminal:**
 ```text
-Initialized empty Git repository in C:/Users/anda/portfolio-saya/.git/
+Initialized empty Git repository in C:/Users/anda/path/to/portfolio-saya/.git/
 ```
 
 Sekarang, mari kita periksa keadaan folder kita menggunakan arahan yang paling kerap digunakan oleh semua pengaturcara:
@@ -193,7 +197,8 @@ Changes to be committed:
         new file:   style.css
 ```
 
-Apabila nama fail telah bertukar kepada warna hijau di bawah *Changes to be committed*, itu tandanya fail-fail tersebut sudah berada di dalam **Kotak Pembungkusan**. Sekarang, mari kita lekatkan pita pelekat dan simpan ke dalam **Arkib Kekal** menggunakan `git commit`:
+Apabila nama fail telah bertukar kepada warna hijau di bawah *Changes to be committed*, itu tandanya fail-fail tersebut sudah berada di dalam **Kotak Pembungkusan**. Anda juga boleh menggunakan `git add .` untuk menambahkan kesemua fail ke dalam Kotak Pembungkusan jika tiada fail yang anda hendak abaikan.
+Sekarang, mari kita lekatkan pita pelekat dan simpan ke dalam **Arkib Kekal** menggunakan `git commit`:
 
 ```bash
 git commit -m "Mulakan tapak asas portfolio dan tetapan .gitignore"
@@ -223,7 +228,7 @@ Cari penanda komen Bab 3 pada baris ke-23:
         <!-- BAB 3: TUKAR NAMA DAN BIODATA ANDA DI BAWAH -->
         <section id="biodata" class="hero-card">
             <p class="greeting">Hai, selamat datang ke laman portfolio saya! 👋</p>
-            <h1 class="hero-title">Nama Pelajar Di Sini</h1>
+            <h1 class="hero-title">Nama Anda Di Sini</h1>
             <p class="hero-subtitle">Pelajar Sains Komputer &amp; Pembangun Perisian Baharu</p>
             <p class="hero-bio">
                 Saya sedang mempelajari kawalan versi menggunakan Git dan GitHub untuk membina aplikasi web yang kemas, teratur, dan mudah diselenggara bersama pasukan.
@@ -252,7 +257,7 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Sekarang, masukkan `index.html` yang telah dikemas kini itu ke dalam Kotak Pembungkusan dan rakamkan *Checkpoint* kedua anda:
+Disini kita nampak bahawa fail `index.html` telah diubah, tetapi belum dimasukkan ke dalam Kotak Pembungkusan. Sekarang, masukkan `index.html` yang telah dikemas kini itu ke dalam Kotak Pembungkusan dan rakamkan *Checkpoint* kedua anda:
 
 ```bash
 git add index.html
@@ -282,27 +287,33 @@ a1b2c3d Mulakan tapak asas portfolio dan tetapan .gitignore
 ```
 
 **Jadi kenapa?**
-Dengan arahan `git log --oneline`, anda dapat melihat keseluruhan sejarah perkembangan projek anda secara ringkas dan jelas. Penunjuk `(HEAD -> main)` memberitahu anda bahawa anda sedang berdiri pada *checkpoint* terkini di dalam cabang `main`.
+Dengan arahan `git log --oneline`, anda dapat melihat keseluruhan sejarah perkembangan projek anda secara ringkas dan jelas. Penunjuk `(HEAD -> main)` memberitahu anda bahawa anda sedang berdiri pada *checkpoint* terkini di dalam cabang `main`. 
+
+Arahan lain yang berguna untuk melihat sejarah: 
+1. `git log` (lebih terperinci)
+2. `git log --graph --oneline --all` (untuk melihat sejarah bercabang)
+3. `git log --name-only` (untuk melihat fail apa yang diubah pada setiap *commit*).
 
 ---
 
 ## ⚠️ Kesilapan Lazim Pemula — Jangan Panik!
 
-> **🚨 Situasi 1: Saya jalankan `git commit -m "..."` tetapi keluar mesej `nothing to commit, working tree clean` atau `no changes added to commit`!**
+> **Situasi 1: Saya jalankan `git commit -m "..."` tetapi keluar mesej `nothing to commit, working tree clean` atau `no changes added to commit`!**
 > **Mengapa ia berlaku:** Anda mungkin terlupa menekan **Save (`Ctrl + S`)** di dalam VS Code selepas menyunting fail, ATAU anda sudah menyunting fail di **Meja Kerja** tetapi terlupa memasukkannya ke dalam **Kotak Pembungkusan** menggunakan `git add`.
 > **Cara selesaikan:** Pastikan fail telah disimpan di editor kod, jalankan `git status` untuk menyemak, kemudian jalankan `git add <nama-fail>` sebelum menjalankan `git commit -m "..."`.
 
-> **🚨 Situasi 2: Alamak! Saya terlupa letak nama fail rahsia di dalam `.gitignore` dan saya sudah tertekan `git add fail-rahsia.txt`!**
+> **Situasi 2: Alamak! Saya terlupa letak nama fail rahsia di dalam `.gitignore` dan saya sudah tertekan `git add fail-rahsia.txt`!**
 > **Mengapa ia berlaku:** Anda telah memasukkan fail rahsia ke dalam Kotak Pembungkusan (*Staging Area*) secara tidak sengaja.
 > **Cara selesaikan (Jangan padam fail anda!):** Gunakan arahan **`git rm --cached fail-rahsia.txt`** (atau `git restore --staged fail-rahsia.txt`). Arahan `--cached` mengeluarkan fail tersebut daripada Kotak Pembungkusan Git **tanpa memadamkan fail sebenar di dalam komputer anda**. Selepas itu, tambahkan `fail-rahsia.txt` ke dalam `.gitignore`.
 
-> **🚨 Situasi 3: Saya tersilap taip `git commit` sahaja tanpa `-m "Mesej"`, tiba-tiba skrin terminal bertukar menjadi editor pelik (Vim) dan saya tidak boleh keluar!**
+> **Situasi 3: Saya tersilap taip `git commit` sahaja tanpa `-m "Mesej"`, tiba-tiba skrin terminal bertukar menjadi editor pelik (Vim) dan saya tidak boleh keluar!**
 > **Mengapa ia berlaku:** Apabila anda tidak menyertakan nota `-m "..."`, Git membuka editor teks terbina dalam (biasanya Vim) untuk meminta anda menulis mesej `commit`.
 > **Cara keluar dengan tenang:** Tekan kekunci **`Esc`**, kemudian taip **`:wq`** (titik bertindih, huruf `w`, huruf `q`) dan tekan **`Enter`**. Untuk mengelakkan situasi ini pada masa hadapan, sentiasa sertakan `-m "Mesej ringkas anda"` setiap kali menjalankan `git commit`.
+> Jika tidak, anda boleh sahaja menulis mesej commit anda di dalam Vim, dengan tekan i terlebih dahulu, taip mesej commit anda, kemudian tekan **`Esc`**, taip **`:wq`**, dan tekan **`Enter`** untuk menyimpan dan keluar.
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 3)
+## Cabaran Semakan Kendiri (Bab 3)
 
 Uji kefahaman anda terhadap aliran kerja Git tempatan dengan 3 soalan ini:
 
@@ -321,7 +332,7 @@ Uji kefahaman anda terhadap aliran kerja Git tempatan dengan 3 soalan ini:
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 2: Persediaan, Konfigurasi & Pengesahan Mudah](./bab-02-persediaan-dan-pengesahan.md)
 - 🏠 **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)

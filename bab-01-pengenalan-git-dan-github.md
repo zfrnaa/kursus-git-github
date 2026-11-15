@@ -1,4 +1,4 @@
-# 🎮 Bab 1: Pengenalan Git & GitHub — Mesin Masa dan Hab Kod Anda
+# Bab 1: Pengenalan Git & GitHub — Mesin Masa dan Hab Kod Anda
 
 **Kemajuan Projek Portfolio Anda: [10%]** `██░░░░░░░░░░░░░░░░░░`
 
@@ -155,7 +155,7 @@ Anda tidak perlu risau jika anda belum mahir mereka bentuk laman web daripada ko
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 1)
+## Cabaran Semakan Kendiri (Bab 1)
 
 Uji kefahaman anda dengan menjawab 3 soalan pantas di bawah sebelum melangkah ke Bab 2:
 
@@ -174,7 +174,7 @@ Uji kefahaman anda dengan menjawab 3 soalan pantas di bawah sebelum melangkah ke
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)
 - ➡️ **Teruskan ke Bab Seterusnya:** [Bab 2: Persediaan, Konfigurasi & Pengesahan Mudah](./bab-02-persediaan-dan-pengesahan.md)

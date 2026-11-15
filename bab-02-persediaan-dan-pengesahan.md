@@ -1,4 +1,4 @@
-# 🛠️ Bab 2: Persediaan, Konfigurasi & Pengesahan Mudah
+# Bab 2: Persediaan, Konfigurasi & Pengesahan Mudah
 
 **Kemajuan Projek Portfolio Anda: [20%]** `████░░░░░░░░░░░░░░░░`
 
@@ -220,21 +220,21 @@ Dengan menyelesaikan `gh auth login` sekarang, anda telah menjimatkan berjam-jam
 
 ## ⚠️ Kesilapan Lazim Pemula — Jangan Panik!
 
-> **🚨 Ralat 1: `Author identity unknown — Please tell me who you are`**
+> **Ralat 1: `Author identity unknown — Please tell me who you are`**
 > **Mengapa ia berlaku:** Anda cuba membuat `commit` pertama tetapi terlupa menjalankan arahan `git config --global user.name` dan `git config --global user.email`, atau anda tersilap menaip arahan tersebut tanpa tanda petikan `"..."`.
 > **Cara selesaikan:** Jalankan semula kedua-dua arahan di **Langkah 2** di atas, kemudian semak dengan `git config --list`.
 
-> **🚨 Ralat 2: `remote: Support for password authentication was removed on August 13, 2021.`**
+> **Ralat 2: `remote: Support for password authentication was removed on August 13, 2021.`**
 > **Mengapa ia berlaku:** Semasa Git meminta kata laluan di terminal, anda menaip kata laluan log masuk biasa akaun GitHub anda.
 > **Cara selesaikan:** Jangan gunakan kata laluan biasa! Jalankan sahaja `gh auth login` (dan pilih `Yes` pada soalan *Authenticate Git with your GitHub credentials?*), atau gunakan **Personal Access Token (PAT)** sebagai kata laluan anda.
 
-> **🚨 Ralat 3: `gh: command not found` atau `'gh' is not recognized...` selepas memasang GitHub CLI**
+> **Ralat 3: `gh: command not found` atau `'gh' is not recognized...` selepas memasang GitHub CLI**
 > **Mengapa ia berlaku:** Tetingkap terminal yang sedang terbuka belum memuatkan semula laluan (*PATH*) perisian yang baru dipasang.
 > **Cara selesaikan:** Tutup tetingkap Git Bash / PowerShell anda sepenuhnya, kemudian buka semula tetingkap baharu dan cuba taip `gh --version`.
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 2)
+## Cabaran Semakan Kendiri (Bab 2)
 
 Pastikan anda boleh menjawab 3 soalan ini sebelum kita mula menulis kod portfolio di Bab 3:
 
@@ -253,7 +253,7 @@ Pastikan anda boleh menjawab 3 soalan ini sebelum kita mula menulis kod portfoli
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 1: Pengenalan Git & GitHub](./bab-01-pengenalan-git-dan-github.md)
 - 🏠 **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)

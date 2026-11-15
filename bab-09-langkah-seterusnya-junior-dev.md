@@ -1,4 +1,4 @@
-# 🧭 Bab 9: Langkah Seterusnya ke Tahap *Junior Dev* — `stash`, `rebase`, & GitHub Actions
+# Bab 9: Langkah Seterusnya ke Tahap *Junior Dev* — `stash`, `rebase`, & GitHub Actions
 
 **Tahap Seterusnya: Melangkaui Sempadan Pemula (*Junior Dev Roadmap*)** `🌟 [BAB BONUS KERJAYA]`
 
@@ -210,21 +210,21 @@ Daripada mencipta banyak `commit` tambahan semata-mata kerana tersalah ejaan mes
 
 ## ⚠️ Kesilapan Lazim Pemula — Jangan Panik!
 
-> **🚨 Situasi 1: Saya sudah menyimpan kod di dalam `git stash` semalam, dan hari ini saya terlupa sama ada masih ada barang di dalam laci `stash` saya atau tidak!**
+> **Situasi 1: Saya sudah menyimpan kod di dalam `git stash` semalam, dan hari ini saya terlupa sama ada masih ada barang di dalam laci `stash` saya atau tidak!**
 > **Mengapa ia berlaku:** Kerana perubahan di dalam `stash` disembunyikan daripada `git status`, mudah untuk kita terlupa tentangnya.
 > **Cara selesaikan:** Jalankan arahan **`git stash list`**. Ia akan memaparkan senarai semua simpanan sementara yang ada di dalam laci anda (contohnya `stash@{0}: WIP on main...`). Jika senarai itu kosong, bermakna laci anda sudah bersih!
 
-> **🚨 Situasi 2: Saya menjalankan `git commit --amend` pada `commit` yang SUDAH pun saya `git push` ke GitHub sebelum ini, dan sekarang `git push` saya ditolak (`rejected`)!**
+> **Situasi 2: Saya menjalankan `git commit --amend` pada `commit` yang SUDAH pun saya `git push` ke GitHub sebelum ini, dan sekarang `git push` saya ditolak (`rejected`)!**
 > **Mengapa ia berlaku:** `git commit --amend` menukar ID `commit` yang lama kepada ID yang baharu, menyebabkan sejarah di komputer anda berbeza dengan sejarah yang sudah berada di GitHub.
 > **Cara selesaikan:** Sebagai peraturan am, **elakkan menggunakan `--amend` selepas anda sudah melakukan `git push`**. Jika ia berlaku pada cawangan peribadi anda sendiri (bukan cawangan `main` kumpulan), anda boleh menggunakan `git push --force-with-lease` untuk mengemas kini cawangan peribadi tersebut dengan selamat.
 
-> **🚨 Situasi 3: Saya terdengar rakan menyebut `git reset --hard`, patutkah saya menggunakannya?**
+> **Situasi 3: Saya terdengar rakan menyebut `git reset --hard`, patutkah saya menggunakannya?**
 > **Mengapa ia berlaku:** Ramai pemula menyalin arahan `git reset --hard` daripada forum internet tanpa mengetahui bahawa perkataan `--hard` akan **memadamkan semua kerja yang belum disimpan secara kekal tanpa boleh dikembalikan (`Ctrl + Z` juga tidak berfungsi)**!
 > **Cara selesaikan:** Elakkan sama sekali menggunakan `--hard` melainkan anda 100% pasti mahu membuang semua perubahan. Gunakan **`git stash`** (yang menyimpan perubahan di dalam laci) atau **`git revert`** (yang mencipta rekod pembatalan dengan selamat).
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 9)
+## Cabaran Semakan Kendiri (Bab 9)
 
 Uji pengetahuan peta jalan *Junior Developer* anda dengan 3 soalan terakhir ini:
 
@@ -255,7 +255,7 @@ Simpan tiga pautan penting ini sebagai teman setia sepanjang pengajian universit
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 8: Projek Akhir — Lancarkan Laman Web Portfolio Anda dengan GitHub Pages!](./bab-08-projek-akhir-github-pages.md)
 - ⚡ **Rujukan Harian Anda:** [Helaian Rujukan Pantas Git (`cheatsheet-git-melayu.md`)](./cheatsheet-git-melayu.md)

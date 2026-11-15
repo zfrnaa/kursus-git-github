@@ -1,4 +1,4 @@
-# 🖥️ Bab 7: Perisian GUI & Alternatif Industri — VS Code, GitHub Desktop & GitLab
+# Bab 7: Perisian GUI & Alternatif Industri — VS Code, GitHub Desktop & GitLab
 
 **Kemajuan Projek Portfolio Anda: [90%]** `██████████████████░░`
 
@@ -59,6 +59,8 @@ flowchart LR
     C5 <==>|"Sama Dengan"| G5
 ```
 
+![VS Code Source Control Panel](./assets/git_overview_vscode.png)
+
 ### Jadual Pemetaan Lengkap: Terminal vs VS Code GUI
 
 | Apa Yang Anda Mahu Lakukan | Arahan di Terminal (CLI) | Tindakan di VS Code (GUI) |
@@ -69,7 +71,7 @@ flowchart LR
 | **Keluarkan fail dari *Staging Area*** | `git restore --staged <fail>` | Klik ikon **`-` (Unstage Changes)** pada fail di bawah bahagian *Staged Changes*. |
 | **Buang perubahan & patah balik** | `git restore <nama-fail>` | Klik ikon **Anak Panah Melengkung `↩` (Discard Changes)** pada fail di bawah bahagian *Changes*. |
 | **Simpan *Checkpoint* (*Commit*)** | `git commit -m "Mesej..."` | Taipkan mesej di dalam kotak teks **Message** di bahagian atas, kemudian klik butang biru **✓ Commit**. |
-| **Muat naik & segerakkan ke GitHub** | `git pull` diikuti `git push` | Klik butang biru **🔄 Sync Changes** (atau klik menu tiga titik `...` $\rightarrow$ **Push** / **Pull**). |
+| **Muat naik & segerakkan ke GitHub** | `git pull` diikuti `git push` | Klik butang biru **🔄 Sync Changes** (atau klik menu tiga titik `...` -> **Push** / **Pull**). |
 | **Tukar atau cipta *Branch* baharu** | `git switch` / `git switch -c` | Klik pada nama cawangan semasa (contohnya `main`) di **penjuru paling bawah kiri** tetingkap VS Code, kemudian pilih **+ Create new branch...** di bahagian atas skrin. |
 
 ---
@@ -164,7 +166,7 @@ Anda baru sahaja menjalankan fungsi `git status` dan `git diff` secara visual! S
 
 ### Langkah 2: *Stage*, *Commit*, dan *Sync* Menggunakan Butang Visual
 
-Tanpa membuka terminal, mari kita lengkapkan kitaran `add` $\rightarrow$ `commit` $\rightarrow$ `push` terus daripada panel kiri VS Code:
+Tanpa membuka terminal, mari kita lengkapkan kitaran `add` -> `commit` -> `push` terus daripada panel kiri VS Code:
 
 1. **Stage (`git add style.css`):**
    - Halakan tetikus pada baris fail `style.css` di bawah tajuk **Changes**, dan klik ikon **`+` (Stage Changes)**.
@@ -209,21 +211,21 @@ Perhatikan bahawa `commit` yang anda lakukan melalui butang visual VS Code tadi 
 
 ## ⚠️ Kesilapan Lazim Pemula — Jangan Panik!
 
-> **🚨 Situasi 1: Saya terus menekan butang biru *Commit* di VS Code tanpa menekan ikon `+` (*Stage*) dahulu, lalu keluar kotak mesej *"There are no staged changes to commit. Would you like to stage all your changes and commit them directly?"***
+> **Situasi 1: Saya terus menekan butang biru *Commit* di VS Code tanpa menekan ikon `+` (*Stage*) dahulu, lalu keluar kotak mesej *"There are no staged changes to commit. Would you like to stage all your changes and commit them directly?"***
 > **Mengapa ia berlaku:** Anda cuba melakukan `git commit` sedangkan *Staging Area* anda masih kosong.
 > **Cara selesaikan:** Jangan terus menekan *Always*! Sebaiknya klik **Cancel**, semak fail anda satu demi satu di bawah senarai *Changes*, dan klik ikon **`+`** secara manual pada fail yang betul-betul ingin disimpan sahaja. Tabiat memilih fail dengan teliti menghalang anda daripada terbuat `commit` fail sampah secara tidak sengaja.
 
-> **🚨 Situasi 2: Saya tertekan ikon anak panah melengkung `↩` (*Discard Changes*) pada fail yang belum pernah di-*commit*, dan semua kod yang baru saya taip hilang!**
+> **Situasi 2: Saya tertekan ikon anak panah melengkung `↩` (*Discard Changes*) pada fail yang belum pernah di-*commit*, dan semua kod yang baru saya taip hilang!**
 > **Mengapa ia berlaku:** Butang *Discard Changes* menjalankan arahan `git restore <fail>`, yang membuang semua suntingan baharu dan mengembalikan fail kepada keadaan `commit` terakhir.
 > **Cara selesaikan:** Jika fail tersebut masih terbuka di dalam tab editor VS Code, klik di dalam kod tersebut dengan segera dan tekan **`Ctrl + Z` (Undo)** berkali-kali! Atau gunakan ciri **Timeline** (di bahagian bawah panel Explorer kiri VS Code) yang menyimpan sejarah tempatan (*Local History*) setiap kali anda menekan `Ctrl + S`.
 
-> **🚨 Situasi 3: Butang *Sync Changes* di VS Code berpusing tanpa henti atau memaparkan ralat pengesahan!**
+> **Situasi 3: Butang *Sync Changes* di VS Code berpusing tanpa henti atau memaparkan ralat pengesahan!**
 > **Mengapa ia berlaku:** Kadangkala GUI tidak memaparkan mesej ralat penuh apabila sambungan internet terputus atau sesi log masuk tamat tempoh.
 > **Cara selesaikan:** Inilah kelebihannya kerana anda telah belajar Terminal! Buka terminal (`` Ctrl + ` ``) dan taip **`git push`** atau **`git status`**. Terminal akan terus memaparkan mesej ralat sebenar secara terperinci (dan jika sesi tamat, anda hanya perlu menjalankan `gh auth login`).
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 7)
+## Cabaran Semakan Kendiri (Bab 7)
 
 Uji kefahaman anda sebelum kita melancarkan laman portfolio ke internet pada bab seterusnya:
 
@@ -242,7 +244,7 @@ Uji kefahaman anda sebelum kita melancarkan laman portfolio ke internet pada bab
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 6: *Branching*, *Merge* dan *Pull Request* — Rahsia Kolaborasi Pasukan](./bab-06-branching-dan-pull-request.md)
 - 🏠 **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)

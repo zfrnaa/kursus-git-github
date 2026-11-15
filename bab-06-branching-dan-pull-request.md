@@ -5,13 +5,13 @@
 ### 🎯 Objektif Pembelajaran
 Pada akhir bab ini, anda akan dapat:
 1. Memahami konsep **Cabang (*Branch*)** menggunakan analogi **Kertas Draf Salinan / Alam Semesta Selari (*Parallel Universe*)** dan merancang tugasan menggunakan **GitHub Issues**.
-2. Mencipta cabang baharu dengan `git switch -c`, mengemas kini bahagian projek (`<!-- BAB 6: BAHAGIAN PROJEK & HUBUNGI SAYA -->`), dan menghantar **Pull Request (PR)** pertama pada repositori anda sendiri.
+2. Mencipta cabang baharu dengan `git switch -c`, mengemas kini bahagian projek, dan menghantar **Pull Request (PR)** pertama pada repositori anda sendiri.
 3. Menghadapi dan menyelesaikan situasi **Percanggahan Kod (*Merge Conflict*)** (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) dengan tenang tanpa rasa panik.
 4. Menyelesaikan **Cabaran Kemuncak Sumber Terbuka**: Melakukan *Fork*, menambah nama anda ke dalam Dinding Kenangan [`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md), dan menghantar *Pull Request* sebenar!
 
 ---
 
-## 1. Bayangkan Begini... *Branch* Seperti Kertas Draf Salinan (Alam Semesta Selari)
+## 1. Bayangkan Begini... *Branch* Seperti Kertas Draf Salinan
 
 Pernahkah anda berada di dalam projek berkumpulan di mana seorang rakan anda sedang mencuba ciri baharu yang belum siap, lalu dia terus menyimpan kod yang separuh masak itu ke dalam fail utama sehingga keseluruhan projek kumpulan anda gagal dijalankan (*crash*)?
 
@@ -19,13 +19,13 @@ Dalam industri perisian profesional, **tiada siapa yang menyunting kod secara te
 
 **Bayangkan begini...** Anda dan kumpulan anda sedang menyiapkan sebuah buku laporan rasmi yang bersih di atas meja utama (**cabang `main`**). Tiba-tiba, anda mendapat idea untuk melukis gambar rajah baharu pada Bab 6, tetapi anda risau lukisan tersebut mungkin comot atau tidak menjadi:
 1. **🌿 Mencipta *Branch* (`git switch -c tambah-projek`):**
-   Daripada menconteng terus di atas buku laporan rasmi (`main`), anda **membuat satu salinan fotostat (Kertas Draf / Alam Semesta Selari)**. Di atas kertas draf ini, anda bebas melukis, memadam, atau bereksperimen sesuka hati. Buku laporan rasmi di cabang `main` kekal 100% bersih dan selamat!
+   Daripada menconteng terus di atas buku laporan rasmi (`main`), anda **membuat satu salinan fotostat (Kertas Draf)**. Di atas kertas draf ini, anda bebas melukis, memadam, atau bereksperimen sesuka hati. Buku laporan rasmi di cabang `main` kekal 100% bersih dan selamat!
 2. **🔍 Membuka *Pull Request / PR* (Minta Semakan Kumpulan):**
    Apabila lukisan di atas kertas draf anda sudah siap dan kemas, anda tidak terus menampalnya secara senyap-senyap. Anda mengangkat tangan dan menunjukkan draf tersebut kepada ahli pasukan: *"Kawan-kawan, saya sudah siapkan bahagian projek di cabang `tambah-projek`. Boleh tolong semak sebelum kita masukkan ke dalam `main`?"* Permintaan rasmi ini dipanggil **Pull Request (PR)**.
 3. **🤝 Menggabungkan Kod (`Merge`):**
    Selepas disemak dan diluluskan, barulah perubahan daripada kertas draf (`tambah-projek`) digabungkan (**`merge`**) ke dalam buku laporan rasmi (**`main`**)!
 
-### Aliran Kerja *Issue* $\rightarrow$ *Branch* $\rightarrow$ *Pull Request* $\rightarrow$ *Merge*
+### Aliran Kerja *Issue* -> *Branch* -> *Pull Request* -> *Merge*
 
 Perhatikan bagaimana cabang ciri (*feature branch*) berpecah daripada `main` dan kembali semula selepas disiapkan:
 
@@ -105,7 +105,7 @@ Switched to a new branch 'tambah-projek'
 ```
 
 **Jadi kenapa?**
-Perhatikan tanda bintang `*` kini berada di sebelah **`tambah-projek`**. Anda kini berada di dalam "Alam Semesta Selari"! Sebarang perubahan yang anda buat pada fail `index.html` sekarang hanya berlaku di dalam cabang `tambah-projek` tanpa mengusik cabang `main`.
+Perhatikan tanda bintang `*` kini berada di sebelah **`tambah-projek`**. Anda kini berada di dalam cabang yang betul! Sebarang perubahan yang anda buat pada fail `index.html` sekarang hanya berlaku di dalam cabang `tambah-projek` tanpa mengusik cabang `main`.
 
 ---
 
@@ -166,8 +166,8 @@ branch 'tambah-projek' set up to track 'origin/tambah-projek'.
 1. Buka semula halaman repositori `portfolio-saya` di pelayar web GitHub anda.
 2. Anda akan melihat sepanduk kuning di bahagian atas berbunyi: **`tambah-projek had recent pushes`** berserta butang hijau **Compare & pull request**. Klik butang hijau tersebut!
 3. Pada halaman **Open a pull request**:
-   - Pastikan anak panah di bahagian atas menunjukkan: **`base: main` $\leftarrow$ `compare: tambah-projek`**.
-   - Pada ruangan **Description / Write**, taipkan kata kunci ajaib ini:
+   - Pastikan anak panah di bahagian atas menunjukkan: **`base: main` -> `compare: tambah-projek`**.
+   - Pada ruangan **Description / Write**, taipkan kata kunci ini:
      ```markdown
      Menambah maklumat projek pilihan dan mengemas kini pautan profil GitHub.
 
@@ -230,7 +230,7 @@ Mari kita cipta satu *Merge Conflict* secara sengaja supaya anda tidak lagi taku
      ```html
      <p>Hak Cipta Terpelihara 2026 • Dibina dengan <strong>Git &amp; GitHub</strong> (Versi Web)</p>
      ```
-   - Klik **Commit changes...** $\rightarrow$ **Commit directly to the `main` branch** $\rightarrow$ **Commit changes**.
+   - Klik **Commit changes...** -> **Commit directly to the `main` branch** -> **Commit changes**.
 
 2. **Di Komputer Anda (Tanpa menjalankan `git pull` dahulu!):**
    - Buka fail `index.html` di dalam VS Code pada komputer anda.
@@ -309,7 +309,7 @@ To https://github.com/USERNAME-ANDA/portfolio-saya.git
 ```
 
 **Jadi kenapa?**
-Tahniah! 🎉 Anda baru sahaja berhadapan dengan situasi yang paling digeruni oleh pemula dan menyelesaikannya dalam masa kurang daripada 2 minit. Mulai hari ini, apabila anda melihat perkataan `CONFLICT (content)`, anda tahu bahawa Git hanya meminta anda memilih ayat mana yang patut dikekalkan!
+Tahniah! 🎉 Anda baru sahaja berhadapan dengan situasi yang paling ditakuti oleh pemula dan menyelesaikannya dalam masa kurang daripada 2 minit. Mulai hari ini, apabila anda melihat perkataan `CONFLICT (content)`, anda tahu bahawa Git hanya meminta anda memilih ayat/code mana yang patut dikekalkan!
 
 ---
 
@@ -317,9 +317,9 @@ Tahniah! 🎉 Anda baru sahaja berhadapan dengan situasi yang paling digeruni ol
 
 Kini tibalah detik paling bersejarah dalam perjalanan pembelajaran anda. Anda telah menguasai cara mengurus repositori anda sendiri—tetapi bagaimana pula cara menyumbang kod kepada projek milik orang lain atau komuniti sumber terbuka (*Open Source*) di mana anda tidak mempunyai akses untuk melakukan `push` secara terus?
 
-Jawapannya ialah aliran kerja **🍴 Fork $\rightarrow$ 💻 Clone $\rightarrow$ 🌿 Branch $\rightarrow$ 📤 Push $\rightarrow$ 🎉 Pull Request**!
+Jawapannya ialah aliran kerja **🍴 Fork -> 💻 Clone -> 🌿 Branch -> 📤 Push -> 🎉 Pull Request**!
 
-Dalam cabaran ini, anda akan mengabadikan nama anda di dalam **Dinding Kenangan ([`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md))** repositori kursus ini.
+Dalam cabaran ini, anda akan mengabadikan nama anda di dalam **Balai Kemasyhuran ([`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md))** repositori kursus ini.
 
 ### Aliran Kerja *Fork* & *Pull Request* Sumber Terbuka
 
@@ -378,7 +378,7 @@ flowchart TD
    git push -u origin tambah-nama-anda
    ```
    - Buka semula halaman repositori *Fork* anda di pelayar web GitHub (`https://github.com/USERNAME-ANDA/kursus-git-github`).
-   - Klik butang hijau **Compare & pull request** $\rightarrow$ tulis tajuk `Tambah [Nama Anda] ke dalam Senarai Pelajar` $\rightarrow$ klik **Create pull request**!
+   - Klik butang hijau **Compare & pull request** -> tulis tajuk `Tambah [Nama Anda] ke dalam Senarai Pelajar` -> klik **Create pull request**!
 
 🎉 **Syabas!** Sebaik sahaja anda menekan *Create pull request*, anda secara rasminya telah melakukan sumbangan sumber terbuka (*Open Source Contribution*) pertama anda menggunakan aliran kerja yang sama seperti jurutera perisian di seluruh dunia!
 
@@ -388,21 +388,21 @@ flowchart TD
 
 ## ⚠️ Kesilapan Lazim Pemula — Jangan Panik!
 
-> **🚨 Situasi 1: Alamak! Saya sudah mula menyunting fail, baru saya perasan saya terlupa buat cabang baharu dan masih berada di atas `main` (`git status` tulis `On branch main`)!**
+> **Situasi 1: Alamak! Saya sudah mula menyunting fail, baru saya perasan saya terlupa buat cabang baharu dan masih berada di atas `main` (`git status` tulis `On branch main`)!**
 > **Mengapa ia berlaku:** Sangat biasa berlaku apabila kita terlalu teruja menulis kod sehingga terlupa menaip `git switch -c`.
 > **Cara selesaikan:** Selagi anda **belum** menjalankan `git commit`, anda boleh terus menaip **`git switch -c nama-cabang-baharu`** sekarang! Git secara pintar akan membawa semua perubahan yang sedang anda sunting itu ikut berpindah bersama-sama ke dalam cabang baharu tersebut tanpa hilang sedikit pun.
 
-> **🚨 Situasi 2: Semasa saya mahu bertukar cabang (`git switch main`), keluar ralat `error: Your local changes to the following files would be overwritten by checkout`!**
+> **Situasi 2: Semasa saya mahu bertukar cabang (`git switch main`), keluar ralat `error: Your local changes to the following files would be overwritten by checkout`!**
 > **Mengapa ia berlaku:** Anda mempunyai perubahan pada fail yang belum disimpan (`commit`) di dalam cabang semasa. Git menghalang anda bertukar cabang supaya kerja separuh jalan anda tidak terpadam.
 > **Cara selesaikan:** Lakukan `git add` dan `git commit -m "..."` dahulu pada cabang semasa anda (atau gunakan `git stash` yang akan kita pelajari dalam Bab 9), kemudian barulah jalankan `git switch main`.
 
-> **🚨 Situasi 3: Saya cuba memadam cabang dengan `git branch -d nama-cabang`, tetapi keluar ralat `error: The branch '...' is not fully merged`!**
+> **Situasi 3: Saya cuba memadam cabang dengan `git branch -d nama-cabang`, tetapi keluar ralat `error: The branch '...' is not fully merged`!**
 > **Mengapa ia berlaku:** Anda telah menggabungkan (*merge*) cabang tersebut di laman web GitHub melalui Pull Request, tetapi anda belum menjalankan `git pull` di dalam cabang `main` komputer anda—jadi komputer anda menyangka cabang itu belum digabungkan.
 > **Cara selesaikan:** Pastikan anda berada di cabang `main` (`git switch main`), jalankan **`git pull`** dahulu, kemudian cuba **`git branch -d nama-cabang`** sekali lagi.
 
 ---
 
-## 🧠 Cabaran Semakan Kendiri (Bab 6)
+## Cabaran Semakan Kendiri (Bab 6)
 
 Uji penguasaan anda terhadap aliran kerja kolaborasi dengan 3 soalan ini:
 
@@ -421,7 +421,7 @@ Uji penguasaan anda terhadap aliran kerja kolaborasi dengan 3 soalan ini:
 
 ---
 
-## 🧭 Navigasi Bab
+## Navigasi Bab
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 5: Kemas Kini Jarak Jauh — Perbezaan `git fetch` vs `git pull`](./bab-05-kemas-kini-jarak-jauh.md)
 - 🏠 **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)
