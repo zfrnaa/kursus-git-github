@@ -1,0 +1,26 @@
+# ==========================================================================
+# CONTOH FAIL .gitignore (Latihan Amali Bab 3)
+# Cara guna: Namakan semula (rename) atau salin kandungan fail ini ke dalam
+# fail bernama ".gitignore" (dengan titik di hadapan) di dalam folder projek anda.
+# ==========================================================================
+
+# 1. Fail Rahsia & Kata Laluan (SANGAT PENTING!)
+# Jangan sesekali muat naik kunci API, kata laluan pangkalan data, atau token ke GitHub.
+.env
+.env.local
+rahsia.txt
+
+# 2. Folder Pakej Luaran (Terlalu Besar & Boleh Dipasang Semula)
+# Folder node_modules boleh mengandungi ribuan fail. Rakan sepasukan hanya perlu
+# menjalankan arahan "npm install" di komputer masing-masing.
+node_modules/
+
+# 3. Fail Sistem Operasi (Dijana Secara Automatik oleh Windows / macOS)
+# Fail-fail ini menyimpan tetapan paparan ikon folder dan tidak diperlukan oleh kod anda.
+.DS_Store
+Thumbs.db
+
+# 4. Fail Log & Ralat Sementara
+# Tanda bintang (*) bermaksud "abaikan semua fail yang berakhir dengan .log".
+*.log
+npm-debug.log*

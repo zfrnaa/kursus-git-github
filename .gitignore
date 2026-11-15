@@ -1,0 +1,9 @@
+# Sistem Operasi (OS)
+.DS_Store
+Thumbs.db
+
+# Fail Persekitaran & Rahsia
+.env
+
+# Kebergantungan Projek
+node_modules/
