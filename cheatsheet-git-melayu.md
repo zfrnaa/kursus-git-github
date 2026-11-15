@@ -1,6 +1,6 @@
 # ⚡ Helaian Rujukan Pantas Git (*Git Cheatsheet* Bahasa Melayu)
 
-> **📱 Muat Turun Versi PDF untuk Telefon Pintar:** Mahu simpan rujukan ini di dalam telefon supaya mudah dibuka pada bila-bila masa tanpa internet? **[Klik di sini untuk memuat turun `cheatsheet-git-melayu.pdf`](./cheatsheet-git-melayu.pdf)**!
+> **📱 Muat Turun Versi PDF untuk Telefon Pintar:** Mahu simpan rujukan ini di dalam telefon supaya mudah dibuka pada bila-bila masa tanpa internet? **[Klik di sini untuk memuat turun `Cheatsheet-Git`](./cheatsheet-git-melayu.pdf)**!
 
 Simpan halaman ini (atau klik **⭐ Star** pada repositori utama) supaya anda boleh merujuknya dengan pantas semasa kuliah, amali, atau ketika menyiapkan projek tahun akhir (FYP).
 
