@@ -103,16 +103,16 @@ Dalam Bab 6, kita menggunakan `git merge` untuk menggabungkan cawangan. Apabila 
 Sesetengah syarikat teknologi mengamalkan **`git rebase`** sebagai alternatif untuk mencantikkan sejarah:
 
 **Bayangkan begini...** Anda sedang menulis Bab 2 sebuah novel di atas kertas draf sejak hari Isnin. Sementara itu, rakan anda telah menambah Bab 1 yang baharu ke dalam buku utama (`main`) pada hari Rabu.
-- Apabila anda menjalankan **`git rebase main`** di dalam cawangan anda, Git akan **mengangkat cawangan kerja anda dan menanamnya semula di hujung paling hadapan `main` yang terkini**—seolah-olah anda baru sahaja memulakan kerja anda selepas kerja rakan anda siap!
+- Apabila anda menjalankan **`git rebase main`** di dalam cawangan anda, Git akan **mengangkat cawangan kerja anda dan menanamnya semula di paling hadapan `main` yang terkini**—seolah-olah anda baru sahaja memulakan kerja anda selepas kerja rakan anda siap!
 - Hasilnya: Sejarah projek (`git log`) kelihatan seperti **satu garisan lurus yang sangat kemas** tanpa simpang-siur.
 
-> **⚠️ Peraturan Emas `git rebase`:** Hanya lakukan `rebase` pada cawangan peribadi anda sendiri sebelum digabungkan. Jangan sesekali melakukan `rebase` ke atas cawangan awam seperti `main` yang sedang digunakan oleh orang lain!
+> **⚠️ Peraturan Penting `git rebase`:** Hanya lakukan `rebase` pada cawangan peribadi anda sendiri sebelum digabungkan. Jangan sesekali melakukan `rebase` ke atas cawangan awam seperti `main` yang sedang digunakan oleh orang lain!
 
 ---
 
 ### Alatan 4: `git cherry-pick` — Memetik Satu *Commit* Spesifik Seperti Memetik Buah Ceri
 
-**Bayangkan begini...** Rakan sepasukan anda sedang membina cawangan besar bernama `reka-bentuk-v2` yang mengandungi 20 `commit` (dan cawangan itu belum sedia untuk digabungkan ke `main`). Namun, salah satu daripada 20 `commit` tersebut (contohnya `commit` bernombor `7f8e9a0` yang membaiki ralat butang telefon pintar) sangat diperlukan di dalam cawangan `main` hari ini juga!
+**Bayangkan begini...** Rakan sepasukan anda sedang membina cawangan besar bernama `reka-bentuk-besar` yang mengandungi 20 `commit` (dan cawangan itu belum sedia untuk digabungkan ke `main`). Namun, salah satu daripada 20 `commit` tersebut (contohnya `commit` bernombor `7f8e9a0` yang membaiki ralat butang telefon pintar) sangat diperlukan di dalam cawangan `main` hari ini juga!
 
 Daripada menggabungkan kesemua 20 `commit` yang belum siap itu, anda boleh menggunakan **`git cherry-pick`**:
 
@@ -137,7 +137,7 @@ Tanda tersebut dijana oleh **GitHub Actions**—iaitu sistem **CI/CD (*Continuou
 
 **Bayangkan begini...** GitHub Actions adalah seperti **seorang pembantu makmal robotik yang bekerja 24 jam sehari di dalam repositori anda**:
 1. **Continuous Integration (CI — Pengujian Automatik):**
-   Setiap kali seorang ahli kumpulan membuka *Pull Request*, robot GitHub Actions akan bangun secara automatik, memuat turun kod tersebut ke dalam komputer maya di awan, dan menjalankan ujian kod (*unit tests* & semakan ralat sintaks). Jika kod rakan anda mempunyai pepijat, robot tersebut akan meletakkan tanda **❌ Merah** dan menghalang butang *Merge* daripada ditekan sehingga ralat itu dibaiki!
+   Setiap kali seorang ahli kumpulan membuka *Pull Request*, bot GitHub Actions akan hidup secara automatik, memuat turun kod tersebut ke dalam komputer maya di awan, dan menjalankan ujian kod (*unit tests* & semakan ralat sintaks). Jika kod rakan anda mempunyai pepijat, bot tersebut akan meletakkan tanda **❌ Merah** dan menghalang butang *Merge* daripada ditekan sehingga ralat itu dibaiki oleh anda/orang lain!
 2. **Continuous Deployment (CD — Penerbitan Automatik):**
    Sebenarnya, anda **sudah pun menggunakan GitHub Actions CD dalam Bab 8 tadi**! Semasa anda mengaktifkan **GitHub Pages**, robot GitHub Actions-lah yang bekerja di belakang tabir membina dan menerbitkan laman web portfolio anda ke internet setiap kali anda menjalankan `git push` ke cawangan `main`!
 
@@ -276,13 +276,13 @@ Uji pengetahuan peta jalan *Junior Developer* anda dengan 3 soalan terakhir ini:
 
 ---
 
-## 🎓 Penutup Kursus: Selamat Maju Jaya, Pembangun Baharu!
+## Penutup: Selamat Maju Jaya, Pembangun Baharu!
 
 Anda kini telah menamatkan kesemua **9 Bab Kursus Interaktif Git & GitHub dalam Bahasa Melayu**! 🎉
 
 ---
 
-## 🔭 Mahu Lebih Lagi? (Topik Lanjutan Industri)
+## Mahu Lebih Lagi? (Topik Lanjutan)
 
 Selain alatan *Junior Dev* di atas, dunia kejuruteraan perisian sebenar masih mempunyai beberapa teknik Git yang lebih mendalam apabila anda menguruskan projek berskala besar:
 
@@ -300,7 +300,7 @@ Anda boleh mengundi atau mencadangkan topik pilihan anda melalui ruang **GitHub 
 Simpan tiga pautan penting ini sebagai teman setia sepanjang pengajian universiti, latihan industri (*internship*), dan kerjaya anda sebagai pembangun perisian:
 
 - ⚡ **[Helaian Rujukan Pantas PDF (`cheatsheet-git-melayu.pdf`)](./cheatsheet-git-melayu.pdf) & [Versi Web (`cheatsheet-git-melayu.md`)](./cheatsheet-git-melayu.md):** Muat turun fail PDF ini ke telefon pintar anda atau buka versi web pada bila-bila masa anda memerlukan rujukan pantas arahan terminal semasa membuat tugasan atau projek tahun akhir (FYP).
-- 🏆 **[Dinding Kenangan (`SENARAI-PELAJAR.md`)](./SENARAI-PELAJAR.md):** Semak nama dan pautan portfolio anda bersama rakan-rakan graduan kursus ini di seluruh Malaysia.
+- 🏆 **[Balai Kemashyuran (`SENARAI-PELAJAR.md`)](./SENARAI-PELAJAR.md):** Semak nama dan pautan portfolio anda bersama rakan-rakan graduan kursus ini di seluruh Malaysia.
 - ⭐ **Jangan Lupa Klik "Star":** Pastikan anda telah menekan butang **⭐ Star** pada repositori utama kursus ini supaya ia kekal tersimpan di dalam akaun GitHub anda untuk rujukan masa hadapan!
 
 ---
@@ -309,5 +309,4 @@ Simpan tiga pautan penting ini sebagai teman setia sepanjang pengajian universit
 
 - ⬅️ **Kembali ke Bab Sebelumnya:** [Bab 8: Projek Akhir — Lancarkan Laman Web Portfolio Anda dengan GitHub Pages!](./bab-08-projek-akhir-github-pages.md)
 - ⚡ **Rujukan Harian Anda:** [Helaian Rujukan Pantas Git (`cheatsheet-git-melayu.md`)](./cheatsheet-git-melayu.md)
-- 🏆 **Lihat Senarai Graduan:** [Dinding Kenangan (`SENARAI-PELAJAR.md`)](./SENARAI-PELAJAR.md)
 - 🏠 **Kembali ke Halaman Utama:** [README Kursus Git & GitHub](./README.md)

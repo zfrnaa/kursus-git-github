@@ -66,6 +66,8 @@ Jika anda belum mempunyai akaun GitHub, layari [github.com](https://github.com) 
 > - Pilih *username* yang kemas dan profesional (contohnya `aiman-dev`, `nurulhuda-codes`, atau `faris-rizal`) kerana pautan laman web portfolio anda nanti akan menggunakan nama ini (`username.github.io`) dan bakal diletakkan di dalam resume anda!
 > - Di bahagian **Settings > Emails** di akaun GitHub anda, tambahkan kedua-dua **e-mel peribadi** (Gmail/Outlook) dan **e-mel pelajar universiti/kolej** (`.edu.my`) anda. Dengan cara ini, akaun GitHub anda kekal milik anda selama-lamanya walaupun selepas anda tamat pengajian nanti.
 
+![Contoh tetapan e-mel di GitHub Settings](./assets/email_check.png)
+
 ### 🎁 Buka Kunci Ganjaran Pelajar: *GitHub Student Developer Pack*
 Sebagai pelajar universiti, politeknik, kolej matrikulasi, atau sekolah menengah, anda layak menuntut pakej alatan pembangun bernilai ribuan ringgit secara **100% percuma**!
 

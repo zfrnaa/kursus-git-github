@@ -328,7 +328,7 @@ Uji kefahaman anda terhadap aliran kerja Git tempatan dengan 3 soalan ini:
 <details>
 <summary><strong>Klik di sini untuk menyemak jawapan anda</strong></summary>
 
-1. **Meja Kerja (*Working Directory*)** $\rightarrow$ **Kotak Pembungkusan (*Staging Area*)** $\rightarrow$ **Arkib Kekal (*Local Repository*)**.
+1. **Meja Kerja (*Working Directory*)** -> **Kotak Pembungkusan (*Staging Area*)** -> **Arkib Kekal (*Local Repository*)**.
 2. Taipkan **`git add style.css`** sahaja (jangan gunakan `git add .`), kemudian diikuti dengan `git commit -m "Kemas kini warna di dalam style.css"`.
 3. `git rm --cached rahsia.txt` berfungsi untuk mengeluarkan fail `rahsia.txt` daripada penjejakan Git (*Staging Area* / indeks Git) sahaja. **Fail sebenar di dalam komputer anda TIDAK akan terpadam** dan kekal selamat di atas Meja Kerja anda.
 

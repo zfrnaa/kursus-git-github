@@ -70,13 +70,14 @@ Jika terminal memaparkan `Everything up-to-date` dan `working tree clean`, anda 
 2. Pastikan repositori anda berstatus **Public** *(GitHub Pages adalah percuma untuk semua repositori Public, atau repositori Private jika anda telah mengaktifkan GitHub Pro daripada Student Developer Pack di Bab 2)*.
 3. Klik tab **⚙️ Settings** di bar menu paling atas halaman repositori anda.
 
-![Paparan menu Settings di repositori GitHub untuk GitHub Pages](./assets/menu_settings.png)
 4. Di menu bar sisi sebelah kiri (di bawah bahagian *Code and automation*), klik pada **Pages**.
 5. Pada bahagian **Build and deployment**:
    - Di bawah **Source**, pastikan pilihan ditetapkan kepada **Deploy from a branch**.
    - Di bawah **Branch**, klik butang lungsur (*dropdown*) yang tertulis **`None`**, dan tukarkannya kepada **`main`**.
    - Biarkan pilihan folder di sebelahnya kekal sebagai **`/ (root)`**.
    - Klik butang **Save**.
+
+![Paparan menu Settings di repositori GitHub untuk GitHub Pages](./assets/github_pages_settings.png)
 
 ---
 
@@ -166,7 +167,7 @@ flowchart TD
 - 📧 **E-mel:** [emel.anda@universiti.edu.my](mailto:emel.anda@universiti.edu.my)
 ```
 
-7. Klik butang hijau **Commit changes...** $\rightarrow$ **Commit changes**.
+7. Klik butang hijau **Commit changes...** -> **Commit changes**.
 8. Sekarang, klik pada gambar profil anda di penjuru kanan atas dan pilih **Your profile** (`https://github.com/USERNAME-ANDA`).
 
 **Jadi kenapa?**
@@ -179,13 +180,13 @@ Halaman profil GitHub anda kini kelihatan seperti profil seorang jurutera perisi
 Jika anda mengikuti kursus ini bersama rakan sekelas, rakan sebilik, atau di dalam bengkel kelab komputer universiti, luangkan masa 15 minit untuk mencuba simulasi kerja berpasukan tanpa menggunakan *Fork*:
 
 1. **Lantik Rakan Sebagai *Collaborator*:**
-   - Buka repositori `portfolio-saya` anda $\rightarrow$ **⚙️ Settings** $\rightarrow$ **Collaborators** (di menu kiri) $\rightarrow$ klik **Add people**.
+   - Buka repositori `portfolio-saya` anda -> **⚙️ Settings** -> **Collaborators** (di menu kiri) -> klik **Add people**.
    - Masukkan *username* GitHub rakan anda dan hantar jemputan.
 2. **Rakan Anda Mencipta *Branch* & Menambah Testimoni:**
    - Selepas menerima jemputan, rakan anda boleh melakukan `git clone` repositori anda, mencipta cabang `git switch -c tambah-ucapan-rakan`, menambah satu komen pujian atau ucapan semangat di dalam `index.html`, dan melakukan `git push -u origin tambah-ucapan-rakan`.
 3. **Semak & Luluskan *Pull Request* (*Code Review*):**
    - Rakan anda membuka *Pull Request* di repositori anda.
-   - Anda membuka tab **Pull requests** $\rightarrow$ klik tab **Files changed** $\rightarrow$ klik butang hijau **Review changes** $\rightarrow$ pilih **Approve** $\rightarrow$ dan klik **Merge pull request**!
+   - Anda membuka tab **Pull requests** -> klik tab **Files changed** -> klik butang hijau **Review changes** -> pilih **Approve** -> dan klik **Merge pull request**!
 
 ---
 
