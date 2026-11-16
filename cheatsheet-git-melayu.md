@@ -80,6 +80,8 @@ Digunakan apabila anda mahu melihat rekod kerja terdahulu atau membetulkan kesil
 
 ## 🔄 Ringkasan Aliran Kerja Harian Anda (*Daily Workflow*)
 
+![7 Langkah Aliran Kerja Harian Git](./assets/daily-workflow-infographic.jpg)
+
 Setiap kali anda duduk di hadapan komputer untuk menyambung tugasan koding, amalkan 5 langkah mudah ini mengikut turutan:
 
 ```text

@@ -1,3 +1,5 @@
+![Kenali Git & GitHub — Panduan Interaktif Bahasa Melayu](./assets/social-preview.jpg)
+
 # Kenali Git & GitHub untuk Pemula (Edisi Pelajar & Pembangun Baharu)
 
 Pernahkah anda menyimpan fail tugasan koding di dalam komputer dengan nama seperti ini?
