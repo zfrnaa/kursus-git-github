@@ -68,6 +68,7 @@ Selain 9 bab utama di atas, repositori ini turut menyediakan tiga aset penting u
 - 📱 **[`PDF cheatsheet-git-melayu`](./cheatsheet-git-melayu.pdf) & [`cheatsheet-git-melayu.md`](./cheatsheet-git-melayu.md) — Helaian Rujukan Pantas (Versi PDF Telefon & Web):** Muat turun versi **PDF** terus ke telefon pintar anda (mudah dibuka di WhatsApp/Files tanpa perlu melayari GitHub Mobile) atau baca versi Markdown di pelayar web. Lengkap dengan penjelasan *"Jadi kenapa?"* dalam Bahasa Melayu.
 - 🏆 **[`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md) — Balai Kemasyhuran (*Hall of Fame*):** Senarai pelajar dan pembangun baharu yang telah berjaya menghantar *Pull Request* pertama mereka. Nama anda bakal berada di sini pada Bab 6!
 - 💻 **[`template-portfolio/`](./template-portfolio/) — Kod Permulaan Portfolio Peribadi:** Templat laman web HTML5 dan CSS3 moden yang responsif. Anda tidak perlu menulis kod reka bentuk daripada kosong; fokus terus kepada kemahiran mengawal versi kod dengan Git.
+- 📄 **[`panduan-readme-dan-fail-github.md`](./panduan-readme-dan-fail-github.md) — Panduan Lengkap `README.md`, Markdown & Fail Standard GitHub:** Rujukan penuh sintaks Markdown (`.md`), templat `README.md` untuk projek FYP anda, serta fungsi `LICENSE` dan `CONTRIBUTING.md`.
 
 ---
 
