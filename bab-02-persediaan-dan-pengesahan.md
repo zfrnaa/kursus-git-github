@@ -68,8 +68,8 @@ Jika anda belum mempunyai akaun GitHub, layari [github.com](https://github.com) 
 
 ![Contoh tetapan e-mel di GitHub Settings](./assets/email_check.png)
 
-### 🎁 Buka Kunci Ganjaran Pelajar: *GitHub Student Developer Pack*
-Sebagai pelajar universiti, politeknik, kolej matrikulasi, atau sekolah menengah, anda layak menuntut pakej alatan pembangun bernilai ribuan ringgit secara **100% percuma**!
+### Buka Kunci Ganjaran Pelajar: *GitHub Student Developer Pack*
+Sebagai pelajar universiti, politeknik, kolej matrikulasi, atau sekolah menengah, anda layak menuntut pakej alatan pembangun secara **100% percuma**!
 
 **Cara Menuntut (Hanya Mengambil Masa 5 Minit):**
 1. Pastikan anda telah menambah dan mengesahkan e-mel institusi anda (contoh: `nama@siswa.um.edu.my`, `nama@student.uitm.edu.my`, atau domain kolej anda) di dalam tetapan e-mel GitHub.
