@@ -66,6 +66,25 @@ Apabila anda melawat mana-mana halaman projek di GitHub (termasuk halaman kursus
 
 ---
 
+## 📄 Mengenal Fail Standard di GitHub (`README.md`, `LICENSE`, `CONTRIBUTING.md`)
+
+Apabila anda melawat mana-mana repositori profesional di GitHub, anda hampir pasti akan terjumpa tiga fail penting ini di muka hadapan:
+
+| Fail Standard | Fungsi & Kegunaannya |
+| :--- | :--- |
+| **`README.md`** | **"Pintu Hadapan & Manual Projek."** Fail inilah yang dipaparkan secara automatik oleh GitHub di halaman utama repositori. Ia menerangkan apa fungsi projek, cara memasangnya, dan tangkapan skrin aplikasi. |
+| **`LICENSE`** | **"Peraturan Undang-Undang."** Menentukan sama ada orang lain boleh menyalin, mengubah suai, atau menjual kod anda (contohnya **MIT License** untuk kod sumber terbuka, atau **CC BY-NC 4.0** untuk bahan percuma bukan komersial). |
+| **`CONTRIBUTING.md`** | **"Buku Panduan Penyumbang."** Menyenaraikan syarat dan langkah untuk pembangun luar yang mahu menghantar *Pull Request* (PR) supaya kod mereka menepati piawaian projek. |
+
+### Asas Ringkas Format Markdown (`.md`) untuk `README.md`
+Fail `README.md` ditulis menggunakan **Markdown** (format teks ringkas yang bertukar menjadi paparan kemas di GitHub). Anda hanya perlu hafal 4 sintaks asas ini:
+- `# Tajuk Besar` atau `## Tajuk Kecil` $\rightarrow$ Mencipta tajuk bahagian.
+- `**Teks Tebal**` atau `*Teks Condong*` $\rightarrow$ Menekankan perkataan penting.
+- `` `kod arahan` `` $\rightarrow$ Memaparkan nama arahan terminal atau fail.
+- `[Teks Pautan](https://pautan.com)` $\rightarrow$ Mencipta pautan boleh klik (dan letak `!` di hadapan `[Teks](gambar.png)` untuk memaparkan gambar).
+
+---
+
 ## 🧪 Latihan Amali Bab 4 (Bahagian 1): Memuat Naik `portfolio-saya` ke GitHub (`git push`)
 
 Dalam Bab 3, anda telah mencipta dua `commit` di dalam folder `portfolio-saya` di komputer anda. Sekarang, mari kita muat naik projek tersebut ke akaun GitHub anda supaya ia selamat di awan!
