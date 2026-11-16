@@ -27,8 +27,6 @@ Sebelum anda mula membaca Bab 1, lihat ke bahagian **penjuru kanan atas** halama
 > 2. **Rujukan Pantas Semasa Kuliah & Amali:** Apabila anda terlupa arahan Git semasa membuat tugasan atau projek tahun akhir (FYP), panduan ini sentiasa tersedia satu klik sahaja di akaun anda.
 > 3. **Menyokong Komuniti Sumber Terbuka Melayu:** Setiap ⭐ Star yang anda berikan membantu algoritma GitHub mengesyorkan panduan percuma ini kepada lebih ramai rakan pelajar IT di seluruh Malaysia!
 
-([`Gambar Profil`](./SENARAI-PELAJAR.md))
-
 Sudah klik **⭐ Star**? Bagus! Mari kita lihat apa yang bakal anda bina sepanjang kursus ini.
 
 ---
