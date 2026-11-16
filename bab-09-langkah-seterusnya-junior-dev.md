@@ -174,6 +174,36 @@ nothing to commit, working tree clean
 ```
 Lihat semula fail `index.html` di dalam VS Code—baris komen ujian tadi telah hilang daripada fail dan disimpan dengan selamat di dalam laci `stash`!
 
+### Contoh B: Merapikan Sejarah dengan `git rebase`
+Bayangkan anda sedang membina ciri baharu di dalam cawangan `ciri-profil`, tetapi rakan sepasukan anda baru sahaja menggabungkan kod penting ke dalam `main`. Untuk menyusun semula kerja anda supaya terletak kemas di atas versi `main` yang paling baharu:
+```bash
+# 1. Pastikan anda berada di dalam cawangan ciri anda
+git switch ciri-profil
+
+# 2. Susun semula commit anda di atas main yang terkini
+git rebase main
+```
+**Jangkaan Output di Terminal:**
+```text
+Successfully rebased and updated refs/heads/ciri-profil.
+```
+
+### Contoh C: Memetik Satu Commit Spesifik dengan `git cherry-pick`
+Bayangkan di dalam cawangan `eksperimen`, anda hanya mahu mengambil **satu** `commit` pembaikan pepijat (contohnya ID `9f8e7d6` daripada `git log --oneline`) ke dalam `main` tanpa menggabungkan keseluruhan cawangan `eksperimen`:
+```bash
+# 1. Pindah ke cawangan sasaran (main)
+git switch main
+
+# 2. Petik hanya commit pembaikan pepijat tersebut
+git cherry-pick 9f8e7d6
+```
+**Jangkaan Output di Terminal:**
+```text
+[main 4c5d6e7] Baiki ralat paparan butang pada telefon
+ Date: ...
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+```
+
 4. Sekarang, keluarkan semula kerja tersebut daripada laci kembali ke fail anda:
    ```bash
    git stash pop

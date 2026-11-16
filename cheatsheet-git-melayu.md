@@ -76,6 +76,8 @@ Digunakan apabila anda mahu melihat rekod kerja terdahulu atau membetulkan kesil
 | `git commit --amend -m "Mesej baharu"` | Membetulkan ejaan mesej `commit` yang paling akhir (atau menambah fail yang tertinggal) supaya sejarah kerja anda kelihatan kemas sebelum dimuat naik ke GitHub. |
 | `git stash` | Menyimpan sementara perubahan kod yang belum siap ke dalam ruang simpanan tersembunyi supaya anda boleh berpindah `branch` dengan segera apabila perlu membaiki isu kecemasan lain. |
 | `git stash pop` | Mengeluarkan semula kod yang disimpan di dalam `stash` tadi kembali ke ruang kerja anda supaya anda boleh menyambung semula tugasan yang tertangguh. |
+| `git rebase <nama-branch>` | *(Tahap Junior Dev)* Merapikan sejarah `branch` anda supaya kelihatan lurus di atas `commit` terkini `main`. Elakkan pada `branch` kongsi. |
+| `git cherry-pick <id-commit>` | *(Tahap Junior Dev)* Memetik satu `commit` spesifik daripada `branch` lain dan menyalinnya terus ke dalam `branch` semasa anda. |
 
 ---
 
