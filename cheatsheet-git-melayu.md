@@ -72,6 +72,7 @@ Digunakan apabila anda mahu melihat rekod kerja terdahulu atau membetulkan kesil
 | `git diff` | Menunjukkan perbezaan baris demi baris antara kod yang baru anda taip dengan kod terakhir yang disimpan supaya anda dapat mengesan kesilapan sebelum membuat `commit`. |
 | `git restore <nama-fail>` | Membuang perubahan yang belum di-*stage* pada fail tersebut dan mengembalikannya kepada keadaan `commit` terakhir supaya anda dapat memulihkan kod yang tersilap dipadam dengan segera. |
 | `git restore --staged <nama-fail>` | Mengeluarkan semula fail daripada *Staging Area* tanpa memadamkan kod yang telah anda taip supaya fail yang belum sedia tidak terbuat `commit` secara tidak sengaja. |
+| `git rm --cached <nama-fail>` | Membuang fail daripada penjejakan Git (walaupun sudah di-`commit` secara tempatan) tanpa memadamkan fail sebenar di komputer. Jalankan `git commit --amend --no-edit` selepas itu supaya fail tersebut tidak ikut ter-`push` ke GitHub. |
 | `git commit --amend -m "Mesej baharu"` | Membetulkan ejaan mesej `commit` yang paling akhir (atau menambah fail yang tertinggal) supaya sejarah kerja anda kelihatan kemas sebelum dimuat naik ke GitHub. |
 | `git stash` | Menyimpan sementara perubahan kod yang belum siap ke dalam ruang simpanan tersembunyi supaya anda boleh berpindah `branch` dengan segera apabila perlu membaiki isu kecemasan lain. |
 | `git stash pop` | Mengeluarkan semula kod yang disimpan di dalam `stash` tadi kembali ke ruang kerja anda supaya anda boleh menyambung semula tugasan yang tertangguh. |
