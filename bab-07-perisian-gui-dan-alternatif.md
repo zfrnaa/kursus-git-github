@@ -7,7 +7,6 @@ Pada akhir bab ini, anda akan dapat:
 1. Memahami mengapa jurutera perisian mempelajari **Terminal (CLI)** terlebih dahulu sebelum menggunakan perisian **Antara Muka Grafik (GUI)** untuk mempercepatkan kerja harian.
 2. Mengurus perubahan Git secara visual menggunakan **VS Code Source Control Panel** dan memetakan setiap butang grafik kepada arahan terminal yang telah anda kuasai (`git add`, `git commit`, `git push`, `git pull`, `git switch`).
 
-![Paparan panel Source Control di dalam VS Code](./assets/git_overview_vscode.png)
 3. Mengenali fungsi utama **GitHub Desktop** untuk melihat graf sejarah cawangan, membandingkan perubahan kod secara sebelah-menyebelah (*side-by-side diff*), dan menyelesaikan percanggahan kod secara visual.
 4. Membandingkan ekosistem platform Git di dalam industri (**GitHub vs GitLab vs Bitbucket vs Gitea / Codeberg**) serta menyedari bahawa kesemuanya menggunakan enjin arahan Git yang sama di sebaliknya.
 

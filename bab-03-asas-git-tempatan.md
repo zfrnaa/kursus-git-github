@@ -7,7 +7,6 @@ Pada akhir bab ini, anda akan dapat:
 1. Membezakan tiga peringkat utama di dalam Git: **Meja Kerja (*Working Directory*)**, **Kotak Pembungkusan (*Staging Area*)**, dan **Arkib Kekal (*Local Repository*)**.
 2. Memulakan repositori Git tempatan pada projek portfolio anda menggunakan `git init` dan memeriksa keadaan fail menggunakan `git status`.
 
-![Contoh paparan output git status di terminal](./assets/git_status_example.png)
 3. Menyimpan *Save Checkpoint* pertama selepas mengemas kini biodata di dalam `index.html` menggunakan gabungan arahan `git add`, `git commit`, dan menyemak sejarah dengan `git log --oneline`.
 4. Melindungi maklumat sulit seperti kata laluan dan kunci rahsia daripada termasuk ke dalam rekod Git dengan mencipta fail **`.gitignore`** sebelum disambungkan ke internet.
 
