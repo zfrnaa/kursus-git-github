@@ -59,6 +59,8 @@ Apabila anda melawat mana-mana halaman projek di GitHub (termasuk halaman kursus
 | Butang GitHub | Fungsi Sebenar | Bila Anda Patut Menggunakannya? |
 | :--- | :--- | :--- |
 | **⭐ Star** | **Penanda Buku (*Bookmark*) & Tanda Penghargaan.** Menyimpan pautan repositori tersebut ke dalam senarai *Your Stars* di profil anda tanpa menyalin failnya. | Tekan **⭐ Star** pada repositori yang berguna (seperti kursus ini atau pustaka kod yang anda minati) supaya mudah dicari semula pada bila-bila masa. Ini juga cara anda menunjukkan sokongan kepada projek yang anda minati. |
+
+![Paparan senarai repositori di tab Your Stars pada profil GitHub](./assets/profile_stars.png)
 | **👁️ Watch** | **Langganan Notifikasi (*Notification Bell*).** Memberitahu GitHub supaya menghantar e-mel atau pemberitahuan kepada anda setiap kali ada isu (*Issue*), perbincangan, atau kemas kini baharu pada projek tersebut. | Gunakan pada projek kerja berkumpulan anda di universiti atau tempat kerja supaya anda tahu setiap kali rakan sepasukan menghantar kod baharu. |
 | **🍴 Fork** | **Salinan Bebas ke Akaun Anda Sendiri.** Mencipta salinan penuh repositori orang lain ke dalam akaun GitHub peribadi anda (`github.com/username-anda/nama-projek`) supaya anda boleh mengubah suai kodnya dengan bebas tanpa menjejaskan projek asal. | Gunakan apabila anda ingin menyumbang kod (*Pull Request*) kepada projek sumber terbuka orang lain (kita akan lakukannya secara amali dalam **Bab 6**!). |
 

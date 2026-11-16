@@ -147,6 +147,8 @@ Jalankan ketiga-tiga arahan di bawah satu demi satu. **Pastikan anda menukar nam
 ```bash
 git config --global user.name "Nama Anda"
 git config --global user.email "emel-github-anda@contoh.com"
+
+![Contoh semakan e-mel di GitHub Settings](./assets/email_check.png)
 git config --global init.defaultBranch main
 ```
 

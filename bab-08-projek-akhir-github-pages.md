@@ -69,6 +69,8 @@ Jika terminal memaparkan `Everything up-to-date` dan `working tree clean`, anda 
 1. Buka repositori **`portfolio-saya`** anda di pelayar web GitHub (`https://github.com/USERNAME-ANDA/portfolio-saya`).
 2. Pastikan repositori anda berstatus **Public** *(GitHub Pages adalah percuma untuk semua repositori Public, atau repositori Private jika anda telah mengaktifkan GitHub Pro daripada Student Developer Pack di Bab 2)*.
 3. Klik tab **⚙️ Settings** di bar menu paling atas halaman repositori anda.
+
+![Paparan menu Settings di repositori GitHub untuk GitHub Pages](./assets/menu_settings.png)
 4. Di menu bar sisi sebelah kiri (di bawah bahagian *Code and automation*), klik pada **Pages**.
 5. Pada bahagian **Build and deployment**:
    - Di bawah **Source**, pastikan pilihan ditetapkan kepada **Deploy from a branch**.
