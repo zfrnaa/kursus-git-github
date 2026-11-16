@@ -19,7 +19,7 @@ Selamat datang ke **Kursus Interaktif Git & GitHub dalam Bahasa Melayu** yang di
 
 ## ⭐ Langkah 0: Klik "Star" Sekarang (Simpan Sebagai *Bookmark* Anda!)
 
-Sebelum anda mula membaca Bab 1, lihat ke bahagian **penjuru kanan atas** halaman GitHub ini dan klik butang **⭐ Star**.
+Sebelum anda mula membaca Bab 1, lihat ke bahagian **penjuru kanan atas** halaman GitHub ini dan klik butang **⭐ Star**. *(Belum mempunyai akaun GitHub? Daftar secara percuma di **[github.com/signup](https://github.com/signup)** dalam masa 1 minit dahulu, kemudian log masuk dan tekan ⭐ Star!)*
 
 > **💡 Kenapa anda perlu klik ⭐ Star sekarang?**
 > Di GitHub, butang **⭐ Star** berfungsi sama seperti ciri **Bookmark (Simpanan Kegemaran)**. Apabila anda menekan butang tersebut:
