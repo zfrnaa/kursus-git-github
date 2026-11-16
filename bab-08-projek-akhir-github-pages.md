@@ -228,7 +228,7 @@ Cuba tengok hasil laman portfolio saya di sini:
 👉 https://USERNAME-ANDA.github.io/portfolio-saya/
 
 Siapa yang nak belajar Git & GitHub dari kosong dalam Bahasa Melayu (siap ada panduan tuntut GitHub Student Pack percuma), boleh rujuk repo percuma ni — jangan lupa bagi ⭐ Star sekali! 🙌
-👉 Pautan Panduan Percuma: https://github.com/[USERNAME-PENCIPTA]/kursus-git-github
+👉 Pautan Panduan Percuma: https://github.com/zfrnaa/kursus-git-github
 ```
 
 ---
