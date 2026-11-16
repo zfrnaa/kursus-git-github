@@ -280,6 +280,23 @@ Uji pengetahuan peta jalan *Junior Developer* anda dengan 3 soalan terakhir ini:
 
 Anda kini telah menamatkan kesemua **9 Bab Kursus Interaktif Git & GitHub dalam Bahasa Melayu**! 🎉
 
+---
+
+## 🔭 Mahu Lebih Lagi? (Topik Lanjutan Industri)
+
+Selain alatan *Junior Dev* di atas, dunia kejuruteraan perisian sebenar masih mempunyai beberapa teknik Git yang lebih mendalam apabila anda menguruskan projek berskala besar:
+
+- **`git reflog`** — *"Kotak hitam"* yang merekodkan hampir semua pergerakan anda supaya anda boleh menyelamatkan `commit` yang disangka sudah hilang.
+- **`git bisect`** — Carian binari automatik untuk mencari `commit` mana yang mula-mula menyebabkan pepijat (*bug*) muncul.
+- **`git worktree`** — Membuka beberapa `branch` berbeza dalam folder berasingan secara serentak tanpa perlu `git stash`.
+- **`git tag` & *Semantic Versioning* (`v1.0.0`)** — Menanda versi rasmi pelepasan (*release*) perisian.
+- ***Conventional Commits* & `git submodules`** — Piawaian mesej `commit` berstruktur dan pengurusan repositori di dalam repositori.
+
+**Berminat untuk saya hasilkan Panduan Lanjutan (Bahagian 2)?**  
+Anda boleh mengundi atau mencadangkan topik pilihan anda melalui ruang **GitHub Discussions** di repositori ini, atau tinggalkan komen pada hantaran **Threads** saya (**`@zfrnaa`**)!
+
+---
+
 Simpan tiga pautan penting ini sebagai teman setia sepanjang pengajian universiti, latihan industri (*internship*), dan kerjaya anda sebagai pembangun perisian:
 
 - ⚡ **[Helaian Rujukan Pantas PDF (`cheatsheet-git-melayu.pdf`)](./cheatsheet-git-melayu.pdf) & [Versi Web (`cheatsheet-git-melayu.md`)](./cheatsheet-git-melayu.md):** Muat turun fail PDF ini ke telefon pintar anda atau buka versi web pada bila-bila masa anda memerlukan rujukan pantas arahan terminal semasa membuat tugasan atau projek tahun akhir (FYP).
