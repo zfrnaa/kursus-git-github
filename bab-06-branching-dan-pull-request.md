@@ -1,4 +1,4 @@
-# 🌿 Bab 6: *Branching*, *Merge* dan *Pull Request* — Rahsia Kolaborasi Pasukan
+﻿# 🌿 Bab 6: *Branching*, *Merge* dan *Pull Request* — Rahsia Kolaborasi Pasukan
 
 **Kemajuan Projek Portfolio Anda: [80%]** `████████████████░░░░`
 
@@ -8,6 +8,9 @@ Pada akhir bab ini, anda akan dapat:
 2. Mencipta cabang baharu dengan `git switch -c`, mengemas kini bahagian projek, dan menghantar **Pull Request (PR)** pertama pada repositori anda sendiri.
 3. Menghadapi dan menyelesaikan situasi **Percanggahan Kod (*Merge Conflict*)** (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) dengan tenang tanpa rasa panik.
 4. Menyelesaikan **Cabaran Kemuncak Sumber Terbuka**: Melakukan *Fork*, menambah nama anda ke dalam Dinding Kenangan [`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md), dan menghantar *Pull Request* sebenar!
+
+
+![Ilustrasi Bab 6: Branching, Pull Request dan menyelesaikan Merge Conflict](./assets/illustrations/06-branching-dan-conflict.jpg)
 
 ---
 

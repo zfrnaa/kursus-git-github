@@ -1,4 +1,4 @@
-# Bab 3: Asas Git Tempatan (*Local*) — Tapak Portfolio Pertama Anda
+﻿# Bab 3: Asas Git Tempatan (*Local*) — Tapak Portfolio Pertama Anda
 
 **Kemajuan Projek Portfolio Anda: [35%]** `███████░░░░░░░░░░░░░`
 
@@ -8,6 +8,9 @@ Pada akhir bab ini, anda akan dapat:
 2. Memulakan repositori Git tempatan pada projek portfolio anda menggunakan `git init` dan memeriksa keadaan fail menggunakan `git status`.
 3. Menyimpan *Save Checkpoint* pertama selepas mengemas kini biodata di dalam `index.html` menggunakan gabungan arahan `git add`, `git commit`, dan menyemak sejarah dengan `git log --oneline`.
 4. Melindungi maklumat sulit seperti kata laluan dan kunci rahsia daripada termasuk ke dalam rekod Git dengan mencipta fail **`.gitignore`** sebelum disambungkan ke internet.
+
+
+![Ilustrasi Bab 3: Tiga Kawasan Git dan fail .gitignore](./assets/illustrations/03-tiga-kawasan-git.jpg)
 
 ---
 

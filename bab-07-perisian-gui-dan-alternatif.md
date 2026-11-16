@@ -1,4 +1,4 @@
-# Bab 7: Perisian GUI & Alternatif Industri — VS Code, GitHub Desktop & GitLab
+﻿# Bab 7: Perisian GUI & Alternatif Industri — VS Code, GitHub Desktop & GitLab
 
 **Kemajuan Projek Portfolio Anda: [90%]** `██████████████████░░`
 
@@ -8,6 +8,9 @@ Pada akhir bab ini, anda akan dapat:
 2. Mengurus perubahan Git secara visual menggunakan **VS Code Source Control Panel** dan memetakan setiap butang grafik kepada arahan terminal yang telah anda kuasai (`git add`, `git commit`, `git push`, `git pull`, `git switch`).
 3. Mengenali fungsi utama **GitHub Desktop** untuk melihat graf sejarah cawangan, membandingkan perubahan kod secara sebelah-menyebelah (*side-by-side diff*), dan menyelesaikan percanggahan kod secara visual.
 4. Membandingkan ekosistem platform Git di dalam industri (**GitHub vs GitLab vs Bitbucket vs Gitea / Codeberg**) serta menyedari bahawa kesemuanya menggunakan enjin arahan Git yang sama di sebaliknya.
+
+
+![Ilustrasi Bab 7: Perbandingan CLI vs GUI dan platform alternatif](./assets/illustrations/07-gui-dan-alternatif.jpg)
 
 ---
 

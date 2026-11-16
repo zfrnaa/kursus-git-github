@@ -1,4 +1,4 @@
-# Bab 2: Persediaan, Konfigurasi & Pengesahan Mudah
+﻿# Bab 2: Persediaan, Konfigurasi & Pengesahan Mudah
 
 **Kemajuan Projek Portfolio Anda: [20%]** `████░░░░░░░░░░░░░░░░`
 
@@ -8,6 +8,9 @@ Pada akhir bab ini, anda akan dapat:
 2. Menetapkan identiti penulis rasmi anda (`user.name` dan `user.email`) serta nama cabang lalai (`main`) menggunakan arahan `git config`.
 3. Mencipta akaun GitHub dan menuntut pakej eksklusif **GitHub Student Developer Pack** menggunakan e-mel institusi (`.edu.my`) atau kad pelajar.
 4. Menyambungkan terminal komputer anda dengan akaun GitHub secara lancar menggunakan **GitHub CLI (`gh auth login`)**, serta memahami peranan **Personal Access Token (PAT)** dan **SSH Keys**.
+
+
+![Ilustrasi Bab 2: Pengesahan gh auth login dan GitHub Student Developer Pack](./assets/illustrations/02-pengesahan-dan-student-pack.jpg)
 
 ---
 

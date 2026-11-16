@@ -1,4 +1,4 @@
-# Bab 4: Berhubung dengan GitHub (*Remote*) — Menyimpan Kod ke Awan
+﻿# Bab 4: Berhubung dengan GitHub (*Remote*) — Menyimpan Kod ke Awan
 
 **Kemajuan Projek Portfolio Anda: [50%]** `██████████░░░░░░░░░░`
 
@@ -8,6 +8,9 @@ Pada akhir bab ini, anda akan dapat:
 2. Membezakan fungsi tiga butang utama pada setiap repositori GitHub: **⭐ Star**, **👁️ Watch**, dan **🍴 Fork**.
 3. Mencipta repositori baharu yang kosong di GitHub dan menyambungkannya dengan folder `portfolio-saya` di komputer anda menggunakan `git remote add origin <URL>` dan memuat naik kod menggunakan `git push -u origin main`.
 4. Memuat turun mana-mana projek sedia ada dari GitHub ke dalam komputer anda menggunakan arahan `git clone <URL>`.
+
+
+![Ilustrasi Bab 4: Menghantar kod dengan git push dan menyalin dengan git clone](./assets/illustrations/04-remote-push-clone.jpg)
 
 ---
 

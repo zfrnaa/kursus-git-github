@@ -1,4 +1,4 @@
-# Bab 8: Projek Akhir — Lancarkan Laman Web Portfolio Anda dengan GitHub Pages!
+﻿# Bab 8: Projek Akhir — Lancarkan Laman Web Portfolio Anda dengan GitHub Pages!
 
 **Kemajuan Projek Portfolio Anda: [100% — SIAP! 🎉]** `████████████████████`
 
@@ -8,6 +8,9 @@ Pada akhir bab kemuncak ini, anda akan dapat:
 2. Mengaktifkan **Repositori Istimewa Rahsia (`<username>/<username>`)** untuk mereka bentuk halaman pengenalan peribadi (**GitHub Profile README**) yang memukau perekrut dan penemu duga latihan industri.
 3. Mencuba aktiviti kolaborasi rakan sekelas secara langsung dengan menambah ahli pasukan (**Collaborators**) dan menyemak *Pull Request* antara satu sama lain.
 4. Mengabadikan pautan portfolio langsung anda di dalam **Dinding Kenangan ([`SENARAI-PELAJAR.md`](./SENARAI-PELAJAR.md))** serta berkongsi pencapaian anda bersama komuniti pembangun!
+
+
+![Ilustrasi Bab 8: Melancarkan laman web portfolio percuma di GitHub Pages](./assets/illustrations/08-github-pages-portfolio.jpg)
 
 ---
 

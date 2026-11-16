@@ -1,4 +1,4 @@
-# Bab 5: Kemas Kini Jarak Jauh — Perbezaan `git fetch` vs `git pull`
+﻿# Bab 5: Kemas Kini Jarak Jauh — Perbezaan `git fetch` vs `git pull`
 
 **Kemajuan Projek Portfolio Anda: [65%]** `█████████████░░░░░░░`
 
@@ -8,6 +8,9 @@ Pada akhir bab ini, anda akan dapat:
 2. Memahami peranan penunjuk **`origin/main`** sebagai cerminan keadaan terkini di GitHub berbanding cabang **`main`** di dalam komputer anda.
 3. Mensimulasikan situasi kerja berpasukan secara solo dengan menyunting bahagian kemahiran (`<!-- BAB 5: BAHAGIAN KEMAHIRAN -->`) terus di pelayar web GitHub.
 4. Menyemak perubahan baharu dari awan secara selamat menggunakan `git fetch` dan `git log main..origin/main` sebelum menggabungkannya ke komputer menggunakan `git pull`.
+
+
+![Ilustrasi Bab 5: Perbezaan git fetch dan git pull menggunakan analogi peti surat](./assets/illustrations/05-fetch-vs-pull.jpg)
 
 ---
 

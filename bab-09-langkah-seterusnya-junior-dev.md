@@ -1,4 +1,4 @@
-# Bab 9: Langkah Seterusnya ke Tahap *Junior Dev* — `stash`, `rebase`, & GitHub Actions
+﻿# Bab 9: Langkah Seterusnya ke Tahap *Junior Dev* — `stash`, `rebase`, & GitHub Actions
 
 **Tahap Seterusnya: Melangkaui Sempadan Pemula (*Junior Dev Roadmap*)** `🌟 [BAB BONUS KERJAYA]`
 
@@ -8,6 +8,9 @@ Pada akhir bab bonus ini, anda akan dapat:
 2. Menyimpan kerja separuh jalan di dalam laci sementara menggunakan **`git stash`** dan **`git stash pop`** apabila perlu menukar cawangan secara mengejut.
 3. Membezakan cara membaiki kesilapan pada *commit* terakhir menggunakan **`git commit --amend`**, **`git revert`**, dan **`git reset`** secara selamat tanpa memadamkan kerja rakan sepasukan.
 4. Memahami konsep di sebalik **`git rebase`** (merapikan sejarah cawangan), **`git cherry-pick`** (memetik satu *commit* spesifik), dan **GitHub Actions (CI/CD)** (robot penguji kod automatik).
+
+
+![Ilustrasi Bab 9: Peta jalan melangkaui tahap pemula ke Junior Developer](./assets/illustrations/09-peta-jalan-junior-dev.jpg)
 
 ---
 

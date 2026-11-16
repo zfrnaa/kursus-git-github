@@ -1,4 +1,4 @@
-# Bab 1: Pengenalan Git & GitHub — Mesin Masa dan Hab Kod Anda
+﻿# Bab 1: Pengenalan Git & GitHub — Mesin Masa dan Hab Kod Anda
 
 **Kemajuan Projek Portfolio Anda: [10%]** `██░░░░░░░░░░░░░░░░░░`
 
@@ -8,6 +8,9 @@ Pada akhir bab ini, anda akan dapat:
 2. Membezakan peranan **Git** (perisian kawalan versi di dalam komputer anda) dengan **GitHub** (pelayan awan dan rangkaian sosial untuk kod di internet).
 3. Mengenal pasti kedudukan alternatif industri lain seperti **GitLab**, **Bitbucket**, dan **Gitea** di dalam ekosistem Git.
 4. Menggunakan fungsi utama antaramuka repositori GitHub iaitu **⭐ Star**, **👁️ Watch**, dan **🍴 Fork**.
+
+
+![Ilustrasi Bab 1: Git sebagai Mesin Masa dan GitHub di Awan](./assets/illustrations/01-git-vs-github.jpg)
 
 ---
 
