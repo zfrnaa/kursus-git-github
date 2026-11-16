@@ -10,7 +10,7 @@ Panduan ini menerangkan fungsi setiap fail tersebut berserta rujukan lengkap **M
 
 `README.md` ialah **"pintu hadapan"** atau manual rasmi bagi sesuatu projek. Apabila seseorang membuka pautan repositori GitHub anda, GitHub akan memaparkan kandungan fail `README.md` secara automatik di halaman utama.
 
-> **💡 Tip Kerjaya (*Internship*):** Perekrut (*recruiter*) dan pengurus teknikal jarang membaca setiap baris kod anda terlebih dahulu. Mereka akan membaca **`README.md`** anda dahulu. Projek yang mempunyai `README.md` yang kemas, berserta gambar pratonton dan cara pemasangan, memberi tanggapan pertama yang sangat profesional.
+> **💡 Tip Kerjaya :** Perekrut (*recruiter*) dan pengurus teknikal jarang membaca setiap baris kod anda terlebih dahulu. Mereka akan membaca **`README.md`** anda dahulu. Projek yang mempunyai `README.md` yang kemas, berserta gambar pratonton dan cara pemasangan, memberi tanggapan pertama yang sangat profesional.
 
 ### Templat `README.md` Sedia Guna untuk Projek Anda
 Anda boleh menyalin templat ini untuk projek tugasan atau FYP anda:

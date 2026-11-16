@@ -78,10 +78,10 @@ Apabila anda melawat mana-mana repositori profesional di GitHub, anda hampir pas
 
 ### Asas Ringkas Format Markdown (`.md`) untuk `README.md`
 Fail `README.md` ditulis menggunakan **Markdown** (format teks ringkas yang bertukar menjadi paparan kemas di GitHub). Anda hanya perlu hafal 4 sintaks asas ini:
-- `# Tajuk Besar` atau `## Tajuk Kecil` $\rightarrow$ Mencipta tajuk bahagian.
-- `**Teks Tebal**` atau `*Teks Condong*` $\rightarrow$ Menekankan perkataan penting.
-- `` `kod arahan` `` $\rightarrow$ Memaparkan nama arahan terminal atau fail.
-- `[Teks Pautan](https://pautan.com)` $\rightarrow$ Mencipta pautan boleh klik (dan letak `!` di hadapan `[Teks](gambar.png)` untuk memaparkan gambar).
+- `# Tajuk Besar` atau `## Tajuk Kecil` -> Mencipta tajuk bahagian.
+- `**Teks Tebal**` atau `*Teks Condong*` -> Menekankan perkataan penting.
+- `` `kod arahan` `` -> Memaparkan nama arahan terminal atau fail.
+- `[Teks Pautan](https://pautan.com)` -> Mencipta pautan boleh klik (dan letak `!` di hadapan `[Teks](gambar.png)` untuk memaparkan gambar).
 
 ---
 
